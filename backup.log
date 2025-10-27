@@ -1,0 +1,84 @@
+2025-09-23 16:04:14,824 - INFO - Entering read_config
+2025-09-23 16:04:14,826 - INFO - Exiting read_config
+2025-10-27 17:57:23,309 - INFO - Entering read_config
+2025-10-27 17:57:23,311 - INFO - Exiting read_config
+2025-10-27 17:57:55,129 - INFO - Entering read_config
+2025-10-27 17:57:55,130 - INFO - Exiting read_config
+2025-10-27 17:57:55,131 - INFO - Email notifier is not fully configured. Some required settings are missing.
+2025-10-27 17:58:01,285 - INFO - Entering read_config
+2025-10-27 17:58:01,287 - INFO - Exiting read_config
+2025-10-27 17:58:01,288 - INFO - Email notifier is not fully configured. Some required settings are missing.
+2025-10-27 18:29:22,077 - INFO - Entering read_config
+2025-10-27 18:29:22,082 - INFO - Exiting read_config
+2025-10-27 18:29:22,084 - INFO - Entering backup_postgres_db
+2025-10-27 18:29:33,418 - INFO - Backup for vstate completed successfully at 2025-10-27 18:29:33 IST
+2025-10-27 18:29:33,418 - INFO - Entering send_success_email
+2025-10-27 18:30:18,070 - ERROR - Failed to send email notification: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-10-27 18:30:18,071 - INFO - Exiting send_success_email
+2025-10-27 18:30:18,071 - INFO - Exiting backup_postgres_db
+2025-10-27 18:30:18,071 - INFO - Entering backup_postgres_db
+2025-10-27 18:30:26,491 - INFO - Backup for vstateTest completed successfully at 2025-10-27 18:30:26 IST
+2025-10-27 18:30:26,492 - INFO - Entering send_success_email
+2025-10-27 18:31:08,585 - ERROR - Failed to send email notification: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-10-27 18:31:08,585 - INFO - Exiting send_success_email
+2025-10-27 18:31:08,585 - INFO - Exiting backup_postgres_db
+2025-10-27 18:31:08,586 - INFO - Entering backup_postgres_db
+2025-10-27 18:31:17,375 - INFO - Backup for centralDB completed successfully at 2025-10-27 18:31:17 IST
+2025-10-27 18:31:17,375 - INFO - Entering send_success_email
+2025-10-27 18:31:59,490 - ERROR - Failed to send email notification: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-10-27 18:31:59,491 - INFO - Exiting send_success_email
+2025-10-27 18:31:59,491 - INFO - Exiting backup_postgres_db
+2025-10-27 18:31:59,492 - INFO - Entering backup_postgres_db
+2025-10-27 18:32:05,111 - INFO - Backup for vstateTestEnv completed successfully at 2025-10-27 18:32:05 IST
+2025-10-27 18:32:05,111 - INFO - Entering send_success_email
+2025-10-27 18:32:48,312 - ERROR - Failed to send email notification: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-10-27 18:32:48,313 - INFO - Exiting send_success_email
+2025-10-27 18:32:48,313 - INFO - Exiting backup_postgres_db
+2025-10-27 18:32:48,313 - INFO - Entering backup_postgres_db
+2025-10-27 19:23:55,910 - ERROR - Backup failed for plane: pg_dump: error: connection to server at "192.168.1.100", port 5432 failed: Connection timed out (0x0000274C/10060)
+	Is the server running on that host and accepting TCP/IP connections?
+2025-10-27 19:23:55,911 - INFO - Entering send_failure_email
+2025-10-27 19:23:58,402 - ERROR - Failed to send email notification: [Errno 11001] getaddrinfo failed
+2025-10-27 19:23:58,402 - INFO - Exiting send_failure_email
+2025-10-27 19:23:58,484 - ERROR - Error in backup_postgres_db: Backup failed for plane: pg_dump: error: connection to server at "192.168.1.100", port 5432 failed: Connection timed out (0x0000274C/10060)
+	Is the server running on that host and accepting TCP/IP connections? (status=502)
+2025-10-27 19:32:38,827 - INFO - Entering read_config
+2025-10-27 19:32:38,840 - INFO - Exiting read_config
+2025-10-27 19:32:38,841 - INFO - Entering backup_postgres_db
+2025-10-27 19:33:00,642 - ERROR - Backup failed for vstate: pg_dump: error: connection to server at "192.168.1.100", port 5432 failed: Connection timed out (0x0000274C/10060)
+	Is the server running on that host and accepting TCP/IP connections?
+2025-10-27 19:33:00,643 - INFO - Entering send_failure_email
+2025-10-27 19:33:08,918 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com
+2025-10-27 19:33:08,919 - INFO - Exiting send_failure_email
+2025-10-27 19:33:08,919 - ERROR - Error in backup_postgres_db: Backup failed for vstate: pg_dump: error: connection to server at "192.168.1.100", port 5432 failed: Connection timed out (0x0000274C/10060)
+	Is the server running on that host and accepting TCP/IP connections? (status=502)
+2025-10-28 01:01:29,820 - INFO - Entering read_config
+2025-10-28 01:01:29,830 - INFO - Exiting read_config
+2025-10-28 01:01:29,831 - INFO - Entering backup_postgres_db
+2025-10-28 01:01:51,579 - ERROR - Backup failed for vstate: pg_dump: error: connection to server at "192.168.1.100", port 5432 failed: Connection timed out (0x0000274C/10060)
+	Is the server running on that host and accepting TCP/IP connections?
+2025-10-28 01:01:51,579 - INFO - Entering send_failure_email
+2025-10-28 01:01:59,611 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com
+2025-10-28 01:01:59,612 - INFO - Exiting send_failure_email
+2025-10-28 01:01:59,612 - ERROR - Error in backup_postgres_db: Backup failed for vstate: pg_dump: error: connection to server at "192.168.1.100", port 5432 failed: Connection timed out (0x0000274C/10060)
+	Is the server running on that host and accepting TCP/IP connections? (status=502)
+2025-10-28 05:02:17,765 - INFO - Entering read_config
+2025-10-28 05:02:17,779 - INFO - Exiting read_config
+2025-10-28 05:02:17,780 - INFO - Entering backup_postgres_db
+2025-10-28 05:02:38,973 - ERROR - Backup failed for vstate: pg_dump: error: connection to server at "192.168.1.100", port 5432 failed: Connection timed out (0x0000274C/10060)
+	Is the server running on that host and accepting TCP/IP connections?
+2025-10-28 05:02:38,974 - INFO - Entering send_failure_email
+2025-10-28 05:02:46,365 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com
+2025-10-28 05:02:46,366 - INFO - Exiting send_failure_email
+2025-10-28 05:02:46,366 - ERROR - Error in backup_postgres_db: Backup failed for vstate: pg_dump: error: connection to server at "192.168.1.100", port 5432 failed: Connection timed out (0x0000274C/10060)
+	Is the server running on that host and accepting TCP/IP connections? (status=502)
+2025-10-28 05:10:43,798 - INFO - Entering read_config
+2025-10-28 05:10:43,803 - INFO - Exiting read_config
+2025-10-28 05:10:43,803 - INFO - Entering backup_postgres_db
+2025-10-28 05:11:05,144 - ERROR - Backup failed for vstate: pg_dump: error: connection to server at "192.168.1.100", port 5432 failed: Connection timed out (0x0000274C/10060)
+	Is the server running on that host and accepting TCP/IP connections?
+2025-10-28 05:11:05,145 - INFO - Entering send_failure_email
+2025-10-28 05:11:11,052 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com
+2025-10-28 05:11:11,053 - INFO - Exiting send_failure_email
+2025-10-28 05:11:11,053 - ERROR - Error in backup_postgres_db: Backup failed for vstate: pg_dump: error: connection to server at "192.168.1.100", port 5432 failed: Connection timed out (0x0000274C/10060)
+	Is the server running on that host and accepting TCP/IP connections? (status=502)

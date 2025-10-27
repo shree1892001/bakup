@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "E:\bakup\main.py", line 5, in <module>
+    from services.backup_service import BackupService
+  File "E:\bakup\services\backup_service.py", line 4, in <module>
+    import pytz
+ModuleNotFoundError: No module named 'pytz'
+2025-09-23 16:04:14,824 - INFO - Entering read_config
+2025-09-23 16:04:14,826 - INFO - Exiting read_config
