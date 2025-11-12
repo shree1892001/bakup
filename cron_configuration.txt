@@ -1,0 +1,14 @@
+# Sample cron configuration for backup service
+# Edit your crontab with: crontab -e
+
+# Run backup every day at 2:00 AM
+0 2 * * * /path/to/your/backup/directory/run_backup_server.sh
+
+# Run backup every 6 hours
+0 */6 * * * /path/to/your/backup/directory/run_backup_server.sh
+
+# Run backup every Monday at 3:00 AM
+0 3 * * 1 /path/to/your/backup/directory/run_backup_server.sh
+
+# For Windows Task Scheduler, use the .bat file instead:
+# run_backup_server.bat

@@ -26,7 +26,20 @@ class EmailNotifierService:
         
         if not all([self.smtp_server, self.username, self.app_password, self.from_email, self.to_emails]):
             logger = get_logger()
-            logger.info("Email notifier is not fully configured. Some required settings are missing.")
+            missing_configs = []
+            if not self.smtp_server:
+                missing_configs.append("smtp_server")
+            if not self.username:
+                missing_configs.append("username")
+            if not self.app_password:
+                missing_configs.append("app_password")
+            if not self.from_email:
+                missing_configs.append("from_email")
+            if not self.to_emails:
+                missing_configs.append("to_emails")
+            
+            logger.error(f"Email notifier is not fully configured. Missing: {', '.join(missing_configs)}")
+            logger.error(f"Current config - SMTP: {self.smtp_server}, Port: {self.smtp_port}, Username: {self.username}, From: {self.from_email}, Recipients: {self.to_emails}")
 
     def send_email(self, subject: str, message: str, is_html: bool = False) -> bool:
         """
@@ -52,6 +65,16 @@ class EmailNotifierService:
             return False
 
         try:
+            # Test network connectivity first
+            import socket
+            try:
+                socket.create_connection((self.smtp_server, self.smtp_port), timeout=10)
+                logger.info(f"Network connectivity to {self.smtp_server}:{self.smtp_port} is available")
+            except socket.error as e:
+                logger.error(f"Network connectivity test failed: {str(e)}")
+                logger.error(f"Cannot reach SMTP server {self.smtp_server}:{self.smtp_port}")
+                return False
+
             # Create message container
             msg = MIMEMultipart()
             msg['From'] = self.from_email
@@ -65,10 +88,13 @@ class EmailNotifierService:
             msg.attach(MIMEText(message, 'html' if is_html else 'plain'))
 
             # Connect to the SMTP server and send the email
-            with smtplib.SMTP(self.smtp_server, self.smtp_port) as server:
+            logger.info(f"Attempting to connect to SMTP server {self.smtp_server}:{self.smtp_port}")
+            with smtplib.SMTP(self.smtp_server, self.smtp_port, timeout=30) as server:
                 server.ehlo()
                 server.starttls()
+                logger.info(f"Attempting to login with username: {self.username}")
                 server.login(self.username, self.app_password)
+                logger.info("SMTP login successful, sending email...")
                 server.send_message(msg)
                 
             logger.info(f"Email notification sent successfully to {msg['To']}")
