@@ -21,10 +21,28 @@ class CustomLogger:
 			self.logger.addHandler(handler)
 			self.logger.addHandler(console_handler)
 
+	def debug(self, message: str) -> None:
+		"""Log a debug message.
+		
+		Args:
+		    message: The message to log
+		"""
+		self.logger.debug(message)
+
 	def info(self, message: str) -> None:
+		"""Log an info message.
+		
+		Args:
+		    message: The message to log
+		"""
 		self.logger.info(message)
 
 	def error(self, message: str) -> None:
+		"""Log an error message.
+		
+		Args:
+		    message: The message to log
+		"""
 		self.logger.error(message)
 
 

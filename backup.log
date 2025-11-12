@@ -270,3 +270,1524 @@ operable program or batch file. (status=502)
 2025-11-12 11:59:15,531 - INFO - Exiting send_failure_email
 2025-11-12 11:59:15,531 - ERROR - Error in backup_database: Backup failed for AsmTest (MSSQL): MSSQL backup failed for AsmTest: 'sqlcmd' is not recognized as an internal or external command,
 operable program or batch file. (status=502) (status=502)
+2025-11-12 12:48:40,907 - INFO - Entering read_config
+2025-11-12 12:48:40,915 - INFO - Exiting read_config
+2025-11-12 12:48:40,917 - INFO - Entering backup_database
+2025-11-12 12:48:40,999 - INFO - Starting PostgreSQL backup of vstate
+2025-11-12 12:48:47,119 - INFO - PostgreSQL backup completed: \home\redberyl\backupdata\backupdata\bakupdata\vstate_20251112_124840.sql
+2025-11-12 12:48:47,119 - INFO - Entering send_success_email
+2025-11-12 12:48:47,753 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 12:48:47,754 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 12:48:50,336 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 12:48:50,965 - INFO - SMTP login successful, sending email...
+2025-11-12 12:48:53,314 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 12:48:53,314 - INFO - Exiting send_success_email
+2025-11-12 12:48:53,314 - INFO - Exiting backup_database
+2025-11-12 12:48:53,315 - INFO - Entering backup_database
+2025-11-12 12:48:53,316 - INFO - Starting PostgreSQL backup of vstateTest
+2025-11-12 12:48:59,066 - INFO - PostgreSQL backup completed: \home\redberyl\backupdata\backupdata\bakupdata\vstateTest_20251112_124853.sql
+2025-11-12 12:48:59,066 - INFO - Entering send_success_email
+2025-11-12 12:48:59,133 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 12:48:59,134 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 12:49:01,372 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 12:49:02,031 - INFO - SMTP login successful, sending email...
+2025-11-12 12:49:04,295 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 12:49:04,297 - INFO - Exiting send_success_email
+2025-11-12 12:49:04,297 - INFO - Exiting backup_database
+2025-11-12 12:49:04,298 - INFO - Entering backup_database
+2025-11-12 12:49:04,299 - INFO - Starting PostgreSQL backup of centralDB
+2025-11-12 12:49:09,371 - INFO - PostgreSQL backup completed: \home\redberyl\backupdata\backupdata\bakupdata\centralDB_20251112_124904.sql
+2025-11-12 12:49:09,372 - INFO - Entering send_success_email
+2025-11-12 12:49:09,438 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 12:49:09,440 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 12:49:11,757 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 12:49:12,462 - INFO - SMTP login successful, sending email...
+2025-11-12 12:49:14,736 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 12:49:14,736 - INFO - Exiting send_success_email
+2025-11-12 12:49:14,736 - INFO - Exiting backup_database
+2025-11-12 12:49:14,737 - INFO - Entering backup_database
+2025-11-12 12:49:14,738 - INFO - Starting PostgreSQL backup of vstateTestEnv
+2025-11-12 12:49:19,837 - INFO - PostgreSQL backup completed: \home\redberyl\backupdata\backupdata\bakupdata\vstateTestEnv_20251112_124914.sql
+2025-11-12 12:49:19,838 - INFO - Entering send_success_email
+2025-11-12 12:49:19,922 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 12:49:19,922 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 12:49:22,175 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 12:49:22,869 - INFO - SMTP login successful, sending email...
+2025-11-12 12:49:25,151 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 12:49:25,152 - INFO - Exiting send_success_email
+2025-11-12 12:49:25,152 - INFO - Exiting backup_database
+2025-11-12 12:49:25,152 - INFO - Entering backup_database
+2025-11-12 12:49:25,153 - INFO - Starting PostgreSQL backup of plane
+2025-11-12 12:49:26,298 - INFO - PostgreSQL backup completed: \home\redberyl\backupdata\backupdata\bakupdata\plane_20251112_124925.sql
+2025-11-12 12:49:26,299 - INFO - Entering send_success_email
+2025-11-12 12:49:26,378 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 12:49:26,379 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 12:49:28,476 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 12:49:29,155 - INFO - SMTP login successful, sending email...
+2025-11-12 12:49:31,263 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 12:49:31,264 - INFO - Exiting send_success_email
+2025-11-12 12:49:31,264 - INFO - Exiting backup_database
+2025-11-12 12:49:31,264 - INFO - Entering backup_database
+2025-11-12 12:49:31,266 - INFO - Starting PostgreSQL backup of sonarqube
+2025-11-12 12:49:32,260 - INFO - PostgreSQL backup completed: \home\redberyl\backupdata\backupdata\bakupdata\sonarqube_20251112_124931.sql
+2025-11-12 12:49:32,261 - INFO - Entering send_success_email
+2025-11-12 12:49:32,327 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 12:49:32,328 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 12:49:34,064 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 12:49:34,741 - INFO - SMTP login successful, sending email...
+2025-11-12 12:49:37,132 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 12:49:37,132 - INFO - Exiting send_success_email
+2025-11-12 12:49:37,133 - INFO - Exiting backup_database
+2025-11-12 12:49:37,133 - INFO - Entering backup_database
+2025-11-12 12:49:37,135 - INFO - Starting MSSQL backup of AsmTest
+2025-11-12 12:49:37,192 - ERROR - MSSQL backup failed for AsmTest: 'sqlcmd' is not recognized as an internal or external command,
+operable program or batch file.
+2025-11-12 12:49:37,193 - INFO - Entering send_failure_email
+2025-11-12 12:49:37,277 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 12:49:37,278 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 12:49:39,457 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 12:49:40,157 - INFO - SMTP login successful, sending email...
+2025-11-12 12:49:42,310 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 12:49:42,311 - INFO - Exiting send_failure_email
+2025-11-12 12:49:42,311 - ERROR - Backup failed for AsmTest (MSSQL): MSSQL backup failed for AsmTest: 'sqlcmd' is not recognized as an internal or external command,
+operable program or batch file. (status=502)
+2025-11-12 12:49:42,312 - INFO - Entering send_failure_email
+2025-11-12 12:49:42,393 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 12:49:42,394 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 12:49:44,072 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 12:49:44,780 - INFO - SMTP login successful, sending email...
+2025-11-12 12:49:47,055 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 12:49:47,055 - INFO - Exiting send_failure_email
+2025-11-12 12:49:47,056 - ERROR - Error in backup_database: Backup failed for AsmTest (MSSQL): MSSQL backup failed for AsmTest: 'sqlcmd' is not recognized as an internal or external command,
+operable program or batch file. (status=502) (status=502)
+2025-11-12 12:57:05,248 - INFO - Entering read_config
+2025-11-12 12:57:05,257 - INFO - Exiting read_config
+2025-11-12 12:57:05,259 - INFO - Entering backup_database
+2025-11-12 12:57:05,424 - INFO - Starting PostgreSQL backup of vstate
+2025-11-12 12:57:09,119 - INFO - PostgreSQL backup completed: \home\redberyl\backupdata\backupdata\bakupdata\vstate_20251112_125705.sql
+2025-11-12 12:57:09,121 - INFO - Entering send_success_email
+2025-11-12 12:57:09,600 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 12:57:09,602 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 12:57:11,894 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 12:57:12,565 - INFO - SMTP login successful, sending email...
+2025-11-12 12:57:14,793 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 12:57:14,794 - INFO - Exiting send_success_email
+2025-11-12 12:57:14,794 - INFO - Exiting backup_database
+2025-11-12 12:57:14,795 - INFO - Entering backup_database
+2025-11-12 12:57:14,796 - INFO - Starting PostgreSQL backup of vstateTest
+2025-11-12 12:57:18,935 - INFO - PostgreSQL backup completed: \home\redberyl\backupdata\backupdata\bakupdata\vstateTest_20251112_125714.sql
+2025-11-12 12:57:18,935 - INFO - Entering send_success_email
+2025-11-12 12:57:18,998 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 12:57:18,998 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 12:57:21,122 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 12:57:21,751 - INFO - SMTP login successful, sending email...
+2025-11-12 12:57:23,873 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 12:57:23,874 - INFO - Exiting send_success_email
+2025-11-12 12:57:23,874 - INFO - Exiting backup_database
+2025-11-12 12:57:23,875 - INFO - Entering backup_database
+2025-11-12 12:57:23,876 - INFO - Starting PostgreSQL backup of centralDB
+2025-11-12 12:57:26,602 - INFO - PostgreSQL backup completed: \home\redberyl\backupdata\backupdata\bakupdata\centralDB_20251112_125723.sql
+2025-11-12 12:57:26,603 - INFO - Entering send_success_email
+2025-11-12 12:57:26,666 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 12:57:26,667 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 12:57:28,748 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 12:57:29,360 - INFO - SMTP login successful, sending email...
+2025-11-12 12:57:31,509 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 12:57:31,509 - INFO - Exiting send_success_email
+2025-11-12 12:57:31,509 - INFO - Exiting backup_database
+2025-11-12 12:57:31,510 - INFO - Entering backup_database
+2025-11-12 12:57:31,511 - INFO - Starting PostgreSQL backup of vstateTestEnv
+2025-11-12 12:57:35,312 - INFO - PostgreSQL backup completed: \home\redberyl\backupdata\backupdata\bakupdata\vstateTestEnv_20251112_125731.sql
+2025-11-12 12:57:35,312 - INFO - Entering send_success_email
+2025-11-12 12:57:35,377 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 12:57:35,377 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 12:57:37,625 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 12:57:38,240 - INFO - SMTP login successful, sending email...
+2025-11-12 12:57:40,422 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 12:57:40,423 - INFO - Exiting send_success_email
+2025-11-12 12:57:40,423 - INFO - Exiting backup_database
+2025-11-12 12:57:40,423 - INFO - Entering backup_database
+2025-11-12 12:57:40,424 - INFO - Starting PostgreSQL backup of plane
+2025-11-12 12:57:41,538 - INFO - PostgreSQL backup completed: \home\redberyl\backupdata\backupdata\bakupdata\plane_20251112_125740.sql
+2025-11-12 12:57:41,539 - INFO - Entering send_success_email
+2025-11-12 12:57:41,636 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 12:57:41,637 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 12:57:43,718 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 12:57:44,323 - INFO - SMTP login successful, sending email...
+2025-11-12 12:57:46,360 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 12:57:46,360 - INFO - Exiting send_success_email
+2025-11-12 12:57:46,361 - INFO - Exiting backup_database
+2025-11-12 12:57:46,361 - INFO - Entering backup_database
+2025-11-12 12:57:46,362 - INFO - Starting PostgreSQL backup of sonarqube
+2025-11-12 12:57:47,120 - INFO - PostgreSQL backup completed: \home\redberyl\backupdata\backupdata\bakupdata\sonarqube_20251112_125746.sql
+2025-11-12 12:57:47,121 - INFO - Entering send_success_email
+2025-11-12 12:57:47,185 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 12:57:47,186 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 12:57:48,856 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 12:57:49,474 - INFO - SMTP login successful, sending email...
+2025-11-12 12:57:51,592 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 12:57:51,593 - INFO - Exiting send_success_email
+2025-11-12 12:57:51,593 - INFO - Exiting backup_database
+2025-11-12 12:57:51,593 - INFO - Entering backup_database
+2025-11-12 12:57:51,594 - INFO - Starting MSSQL backup of AsmTest
+2025-11-12 12:57:51,697 - ERROR - MSSQL backup failed for AsmTest: 'sqlcmd' is not recognized as an internal or external command,
+operable program or batch file.
+2025-11-12 12:57:51,697 - INFO - Entering send_failure_email
+2025-11-12 12:57:51,775 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 12:57:51,776 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 12:57:53,873 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 12:57:54,512 - INFO - SMTP login successful, sending email...
+2025-11-12 12:57:56,761 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 12:57:56,761 - INFO - Exiting send_failure_email
+2025-11-12 12:57:56,761 - ERROR - Backup failed for AsmTest (MSSQL): MSSQL backup failed for AsmTest: 'sqlcmd' is not recognized as an internal or external command,
+operable program or batch file. (status=502)
+2025-11-12 12:57:56,762 - INFO - Entering send_failure_email
+2025-11-12 12:57:56,862 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 12:57:56,863 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 12:57:58,551 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 12:57:59,204 - INFO - SMTP login successful, sending email...
+2025-11-12 12:58:01,435 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 12:58:01,436 - INFO - Exiting send_failure_email
+2025-11-12 12:58:01,436 - ERROR - Error in backup_database: Backup failed for AsmTest (MSSQL): MSSQL backup failed for AsmTest: 'sqlcmd' is not recognized as an internal or external command,
+operable program or batch file. (status=502) (status=502)
+2025-11-12 14:12:04,671 - INFO - Entering read_config
+2025-11-12 14:12:04,831 - INFO - Exiting read_config
+2025-11-12 14:12:04,832 - INFO - Entering backup_database
+2025-11-12 14:12:06,013 - INFO - Starting PostgreSQL backup of vstate
+2025-11-12 14:12:14,984 - INFO - PostgreSQL backup completed: \home\redberyl\backupdata\backupdata\bakupdata\vstate_20251112_141206.sql
+2025-11-12 14:12:14,985 - INFO - Entering send_success_email
+2025-11-12 14:12:15,607 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 14:12:15,608 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 14:12:18,938 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 14:12:19,663 - INFO - SMTP login successful, sending email...
+2025-11-12 14:12:22,502 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 14:12:22,502 - INFO - Exiting send_success_email
+2025-11-12 14:12:22,503 - INFO - Exiting backup_database
+2025-11-12 14:12:22,503 - INFO - Entering backup_database
+2025-11-12 14:12:22,504 - INFO - Starting PostgreSQL backup of vstateTest
+2025-11-12 14:12:48,664 - INFO - PostgreSQL backup completed: \home\redberyl\backupdata\backupdata\bakupdata\vstateTest_20251112_141222.sql
+2025-11-12 14:12:48,665 - INFO - Entering send_success_email
+2025-11-12 14:12:48,737 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 14:12:48,738 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 14:12:51,187 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 14:12:51,846 - INFO - SMTP login successful, sending email...
+2025-11-12 14:12:54,335 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 14:12:54,336 - INFO - Exiting send_success_email
+2025-11-12 14:12:54,336 - INFO - Exiting backup_database
+2025-11-12 14:12:54,336 - INFO - Entering backup_database
+2025-11-12 14:12:54,337 - INFO - Starting PostgreSQL backup of centralDB
+2025-11-12 14:13:07,937 - INFO - PostgreSQL backup completed: \home\redberyl\backupdata\backupdata\bakupdata\centralDB_20251112_141254.sql
+2025-11-12 14:13:07,938 - INFO - Entering send_success_email
+2025-11-12 14:13:08,041 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 14:13:08,041 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 14:13:10,218 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 14:13:10,978 - INFO - SMTP login successful, sending email...
+2025-11-12 14:13:13,667 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 14:13:13,667 - INFO - Exiting send_success_email
+2025-11-12 14:13:13,667 - INFO - Exiting backup_database
+2025-11-12 14:13:13,667 - INFO - Entering backup_database
+2025-11-12 14:13:13,668 - INFO - Starting PostgreSQL backup of vstateTestEnv
+2025-11-12 14:13:21,631 - INFO - PostgreSQL backup completed: \home\redberyl\backupdata\backupdata\bakupdata\vstateTestEnv_20251112_141313.sql
+2025-11-12 14:13:21,632 - INFO - Entering send_success_email
+2025-11-12 14:13:21,707 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 14:13:21,708 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 14:13:23,934 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 14:13:24,627 - INFO - SMTP login successful, sending email...
+2025-11-12 14:13:27,059 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 14:13:27,059 - INFO - Exiting send_success_email
+2025-11-12 14:13:27,060 - INFO - Exiting backup_database
+2025-11-12 14:13:27,060 - INFO - Entering backup_database
+2025-11-12 14:13:27,069 - INFO - Starting PostgreSQL backup of plane
+2025-11-12 14:13:28,879 - INFO - PostgreSQL backup completed: \home\redberyl\backupdata\backupdata\bakupdata\plane_20251112_141327.sql
+2025-11-12 14:13:28,880 - INFO - Entering send_success_email
+2025-11-12 14:13:28,941 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 14:13:28,942 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 14:13:31,056 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 14:13:31,692 - INFO - SMTP login successful, sending email...
+2025-11-12 14:13:33,914 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 14:13:33,915 - INFO - Exiting send_success_email
+2025-11-12 14:13:33,915 - INFO - Exiting backup_database
+2025-11-12 14:13:33,915 - INFO - Entering backup_database
+2025-11-12 14:13:33,916 - INFO - Starting PostgreSQL backup of sonarqube
+2025-11-12 14:13:35,050 - INFO - PostgreSQL backup completed: \home\redberyl\backupdata\backupdata\bakupdata\sonarqube_20251112_141333.sql
+2025-11-12 14:13:35,050 - INFO - Entering send_success_email
+2025-11-12 14:13:35,113 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 14:13:35,114 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 14:13:37,194 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 14:13:37,820 - INFO - SMTP login successful, sending email...
+2025-11-12 14:13:39,945 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 14:13:39,945 - INFO - Exiting send_success_email
+2025-11-12 14:13:39,945 - INFO - Exiting backup_database
+2025-11-12 14:13:39,946 - INFO - Entering backup_database
+2025-11-12 14:13:39,947 - INFO - Starting MSSQL backup of AsmTest
+2025-11-12 14:13:42,673 - INFO - MSSQL backup completed: C:\backups\mssql\AsmTest_20251112_141339.bak
+2025-11-12 14:13:42,675 - ERROR - Backup failed for AsmTest (MSSQL): [WinError 2] The system cannot find the file specified: 'C:\\backups\\mssql\\AsmTest_20251112_141339.bak'
+2025-11-12 14:13:42,675 - INFO - Entering send_failure_email
+2025-11-12 14:13:42,756 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 14:13:42,756 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 14:13:44,851 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 14:13:45,494 - INFO - SMTP login successful, sending email...
+2025-11-12 14:13:47,689 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 14:13:47,690 - INFO - Exiting send_failure_email
+2025-11-12 14:13:47,692 - ERROR - Error in backup_database: Backup failed for AsmTest (MSSQL): [WinError 2] The system cannot find the file specified: 'C:\\backups\\mssql\\AsmTest_20251112_141339.bak' (status=502)
+2025-11-12 14:15:23,003 - INFO - Entering read_config
+2025-11-12 14:15:23,010 - INFO - Exiting read_config
+2025-11-12 14:15:23,011 - INFO - Entering backup_database
+2025-11-12 14:15:23,062 - INFO - Starting PostgreSQL backup of vstate
+2025-11-12 14:15:27,204 - INFO - PostgreSQL backup completed: \home\redberyl\backupdata\backupdata\bakupdata\vstate_20251112_141523.sql
+2025-11-12 14:15:27,205 - INFO - Entering send_success_email
+2025-11-12 14:15:27,902 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 14:15:27,903 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 14:15:30,308 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 14:15:30,965 - INFO - SMTP login successful, sending email...
+2025-11-12 14:15:33,112 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 14:15:33,113 - INFO - Exiting send_success_email
+2025-11-12 14:15:33,113 - INFO - Exiting backup_database
+2025-11-12 14:15:33,113 - INFO - Entering backup_database
+2025-11-12 14:15:33,114 - INFO - Starting PostgreSQL backup of vstateTest
+2025-11-12 14:15:39,612 - INFO - PostgreSQL backup completed: \home\redberyl\backupdata\backupdata\bakupdata\vstateTest_20251112_141533.sql
+2025-11-12 14:15:39,612 - INFO - Entering send_success_email
+2025-11-12 14:15:39,677 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 14:15:39,678 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 14:15:41,962 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 14:15:42,618 - INFO - SMTP login successful, sending email...
+2025-11-12 14:15:44,818 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 14:15:44,819 - INFO - Exiting send_success_email
+2025-11-12 14:15:44,819 - INFO - Exiting backup_database
+2025-11-12 14:15:44,819 - INFO - Entering backup_database
+2025-11-12 14:15:44,820 - INFO - Starting PostgreSQL backup of centralDB
+2025-11-12 14:15:48,509 - INFO - PostgreSQL backup completed: \home\redberyl\backupdata\backupdata\bakupdata\centralDB_20251112_141544.sql
+2025-11-12 14:15:48,509 - INFO - Entering send_success_email
+2025-11-12 14:15:48,591 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 14:15:48,592 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 14:15:50,914 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 14:15:51,556 - INFO - SMTP login successful, sending email...
+2025-11-12 14:15:53,710 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 14:15:53,710 - INFO - Exiting send_success_email
+2025-11-12 14:15:53,710 - INFO - Exiting backup_database
+2025-11-12 14:15:53,710 - INFO - Entering backup_database
+2025-11-12 14:15:53,711 - INFO - Starting PostgreSQL backup of vstateTestEnv
+2025-11-12 14:15:59,380 - INFO - PostgreSQL backup completed: \home\redberyl\backupdata\backupdata\bakupdata\vstateTestEnv_20251112_141553.sql
+2025-11-12 14:15:59,381 - INFO - Entering send_success_email
+2025-11-12 14:15:59,466 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 14:15:59,466 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 14:16:01,840 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 14:16:02,469 - INFO - SMTP login successful, sending email...
+2025-11-12 14:16:04,592 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 14:16:04,592 - INFO - Exiting send_success_email
+2025-11-12 14:16:04,592 - INFO - Exiting backup_database
+2025-11-12 14:16:04,593 - INFO - Entering backup_database
+2025-11-12 14:16:04,593 - INFO - Starting PostgreSQL backup of plane
+2025-11-12 14:16:06,618 - INFO - PostgreSQL backup completed: \home\redberyl\backupdata\backupdata\bakupdata\plane_20251112_141604.sql
+2025-11-12 14:16:06,619 - INFO - Entering send_success_email
+2025-11-12 14:16:06,683 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 14:16:06,684 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 14:16:08,860 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 14:16:09,547 - INFO - SMTP login successful, sending email...
+2025-11-12 14:16:11,758 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 14:16:11,758 - INFO - Exiting send_success_email
+2025-11-12 14:16:11,758 - INFO - Exiting backup_database
+2025-11-12 14:16:11,759 - INFO - Entering backup_database
+2025-11-12 14:16:11,759 - INFO - Starting PostgreSQL backup of sonarqube
+2025-11-12 14:16:13,061 - INFO - PostgreSQL backup completed: \home\redberyl\backupdata\backupdata\bakupdata\sonarqube_20251112_141611.sql
+2025-11-12 14:16:13,061 - INFO - Entering send_success_email
+2025-11-12 14:16:13,124 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 14:16:13,125 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 14:16:15,185 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 14:16:15,853 - INFO - SMTP login successful, sending email...
+2025-11-12 14:16:18,017 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 14:16:18,018 - INFO - Exiting send_success_email
+2025-11-12 14:16:18,018 - INFO - Exiting backup_database
+2025-11-12 14:16:18,018 - INFO - Entering backup_database
+2025-11-12 14:16:18,019 - INFO - Starting MSSQL backup of AsmTest
+2025-11-12 14:16:18,364 - INFO - MSSQL backup completed: E:\mssqlbackup\AsmTest_20251112_141618.bak
+2025-11-12 14:16:18,365 - ERROR - Backup failed for AsmTest (MSSQL): [WinError 2] The system cannot find the file specified: 'E:\\mssqlbackup\\AsmTest_20251112_141618.bak'
+2025-11-12 14:16:18,365 - INFO - Entering send_failure_email
+2025-11-12 14:16:18,429 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 14:16:18,429 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 14:16:20,514 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 14:16:21,148 - INFO - SMTP login successful, sending email...
+2025-11-12 14:16:23,425 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 14:16:23,425 - INFO - Exiting send_failure_email
+2025-11-12 14:16:23,425 - ERROR - Error in backup_database: Backup failed for AsmTest (MSSQL): [WinError 2] The system cannot find the file specified: 'E:\\mssqlbackup\\AsmTest_20251112_141618.bak' (status=502)
+2025-11-12 14:20:08,282 - INFO - Entering read_config
+2025-11-12 14:20:08,291 - INFO - Exiting read_config
+2025-11-12 14:20:08,291 - INFO - Entering backup_database
+2025-11-12 14:20:08,472 - INFO - Starting PostgreSQL backup of vstate
+2025-11-12 14:20:23,484 - INFO - PostgreSQL backup completed: \home\redberyl\backupdata\backupdata\bakupdata\vstate_20251112_142008.sql
+2025-11-12 14:20:23,485 - INFO - Entering send_success_email
+2025-11-12 14:20:24,979 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 14:20:24,980 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 14:20:27,398 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 14:20:28,038 - INFO - SMTP login successful, sending email...
+2025-11-12 14:20:30,336 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 14:20:30,336 - INFO - Exiting send_success_email
+2025-11-12 14:20:30,336 - INFO - Exiting backup_database
+2025-11-12 14:20:30,336 - INFO - Entering backup_database
+2025-11-12 14:20:30,337 - INFO - Starting PostgreSQL backup of vstateTest
+2025-11-12 14:20:46,150 - INFO - PostgreSQL backup completed: \home\redberyl\backupdata\backupdata\bakupdata\vstateTest_20251112_142030.sql
+2025-11-12 14:20:46,150 - INFO - Entering send_success_email
+2025-11-12 14:20:46,215 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 14:20:46,215 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 14:20:48,436 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 14:20:49,056 - INFO - SMTP login successful, sending email...
+2025-11-12 14:20:51,243 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 14:20:51,243 - INFO - Exiting send_success_email
+2025-11-12 14:20:51,243 - INFO - Exiting backup_database
+2025-11-12 14:20:51,243 - INFO - Entering backup_database
+2025-11-12 14:20:51,244 - INFO - Starting PostgreSQL backup of centralDB
+2025-11-12 14:20:56,277 - INFO - PostgreSQL backup completed: \home\redberyl\backupdata\backupdata\bakupdata\centralDB_20251112_142051.sql
+2025-11-12 14:20:56,278 - INFO - Entering send_success_email
+2025-11-12 14:20:56,348 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 14:20:56,348 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 14:20:58,474 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 14:20:59,169 - INFO - SMTP login successful, sending email...
+2025-11-12 14:21:01,291 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 14:21:01,291 - INFO - Exiting send_success_email
+2025-11-12 14:21:01,292 - INFO - Exiting backup_database
+2025-11-12 14:21:01,292 - INFO - Entering backup_database
+2025-11-12 14:21:01,293 - INFO - Starting PostgreSQL backup of vstateTestEnv
+2025-11-12 14:21:05,664 - INFO - PostgreSQL backup completed: \home\redberyl\backupdata\backupdata\bakupdata\vstateTestEnv_20251112_142101.sql
+2025-11-12 14:21:05,665 - INFO - Entering send_success_email
+2025-11-12 14:21:05,764 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 14:21:05,765 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 14:21:07,928 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 14:21:08,568 - INFO - SMTP login successful, sending email...
+2025-11-12 14:21:10,757 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 14:21:10,757 - INFO - Exiting send_success_email
+2025-11-12 14:21:10,757 - INFO - Exiting backup_database
+2025-11-12 14:21:10,758 - INFO - Entering backup_database
+2025-11-12 14:21:10,759 - INFO - Starting PostgreSQL backup of plane
+2025-11-12 14:21:11,866 - INFO - PostgreSQL backup completed: \home\redberyl\backupdata\backupdata\bakupdata\plane_20251112_142110.sql
+2025-11-12 14:21:11,867 - INFO - Entering send_success_email
+2025-11-12 14:21:11,945 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 14:21:11,945 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 14:21:14,034 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 14:21:14,686 - INFO - SMTP login successful, sending email...
+2025-11-12 14:21:16,891 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 14:21:16,891 - INFO - Exiting send_success_email
+2025-11-12 14:21:16,891 - INFO - Exiting backup_database
+2025-11-12 14:21:16,891 - INFO - Entering backup_database
+2025-11-12 14:21:16,892 - INFO - Starting PostgreSQL backup of sonarqube
+2025-11-12 14:21:17,846 - INFO - PostgreSQL backup completed: \home\redberyl\backupdata\backupdata\bakupdata\sonarqube_20251112_142116.sql
+2025-11-12 14:21:17,847 - INFO - Entering send_success_email
+2025-11-12 14:21:17,912 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 14:21:17,912 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 14:21:19,999 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 14:21:20,675 - INFO - SMTP login successful, sending email...
+2025-11-12 14:21:22,803 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 14:21:22,803 - INFO - Exiting send_success_email
+2025-11-12 14:21:22,803 - INFO - Exiting backup_database
+2025-11-12 14:21:22,804 - INFO - Entering backup_database
+2025-11-12 14:21:22,804 - INFO - Starting MSSQL backup of AsmTest
+2025-11-12 14:21:23,327 - INFO - MSSQL backup completed: E:\mssqlbackup\AsmTest_20251112_142122.bak
+2025-11-12 14:21:23,328 - ERROR - Backup failed for AsmTest (MSSQL): [WinError 2] The system cannot find the file specified: 'E:\\mssqlbackup\\AsmTest_20251112_142122.bak'
+2025-11-12 14:21:23,329 - INFO - Entering send_failure_email
+2025-11-12 14:21:23,393 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 14:21:23,394 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 14:21:25,472 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 14:21:26,126 - INFO - SMTP login successful, sending email...
+2025-11-12 14:21:28,303 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 14:21:28,304 - INFO - Exiting send_failure_email
+2025-11-12 14:21:28,304 - ERROR - Error in backup_database: Backup failed for AsmTest (MSSQL): [WinError 2] The system cannot find the file specified: 'E:\\mssqlbackup\\AsmTest_20251112_142122.bak' (status=502)
+2025-11-12 14:39:12,732 - INFO - Entering read_config
+2025-11-12 14:39:12,739 - INFO - Exiting read_config
+2025-11-12 14:39:12,739 - INFO - Entering backup_database
+2025-11-12 14:39:12,805 - INFO - Starting PostgreSQL backup of vstate
+2025-11-12 14:39:15,276 - INFO - PostgreSQL backup completed: \home\redberyl\backupdata\backupdata\bakupdata\vstate_20251112_143912.sql
+2025-11-12 14:39:15,277 - INFO - Entering send_success_email
+2025-11-12 14:39:15,663 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 14:39:15,669 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 14:39:18,283 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 14:39:18,930 - INFO - SMTP login successful, sending email...
+2025-11-12 14:39:21,269 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 14:39:21,269 - INFO - Exiting send_success_email
+2025-11-12 14:39:21,269 - INFO - Exiting backup_database
+2025-11-12 14:39:21,269 - INFO - Entering backup_database
+2025-11-12 14:39:21,270 - INFO - Starting PostgreSQL backup of vstateTest
+2025-11-12 14:39:24,652 - INFO - PostgreSQL backup completed: \home\redberyl\backupdata\backupdata\bakupdata\vstateTest_20251112_143921.sql
+2025-11-12 14:39:24,652 - INFO - Entering send_success_email
+2025-11-12 14:39:24,753 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 14:39:24,754 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 14:39:27,031 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 14:39:27,675 - INFO - SMTP login successful, sending email...
+2025-11-12 14:39:29,746 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 14:39:29,746 - INFO - Exiting send_success_email
+2025-11-12 14:39:29,746 - INFO - Exiting backup_database
+2025-11-12 14:39:29,747 - INFO - Entering backup_database
+2025-11-12 14:39:29,747 - INFO - Starting PostgreSQL backup of centralDB
+2025-11-12 14:39:32,569 - INFO - PostgreSQL backup completed: \home\redberyl\backupdata\backupdata\bakupdata\centralDB_20251112_143929.sql
+2025-11-12 14:39:32,570 - INFO - Entering send_success_email
+2025-11-12 14:39:32,635 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 14:39:32,635 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 14:39:34,700 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 14:39:35,338 - INFO - SMTP login successful, sending email...
+2025-11-12 14:39:37,449 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 14:39:37,449 - INFO - Exiting send_success_email
+2025-11-12 14:39:37,449 - INFO - Exiting backup_database
+2025-11-12 14:39:37,449 - INFO - Entering backup_database
+2025-11-12 14:39:37,450 - INFO - Starting PostgreSQL backup of vstateTestEnv
+2025-11-12 14:39:40,777 - INFO - PostgreSQL backup completed: \home\redberyl\backupdata\backupdata\bakupdata\vstateTestEnv_20251112_143937.sql
+2025-11-12 14:39:40,777 - INFO - Entering send_success_email
+2025-11-12 14:39:40,857 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 14:39:40,857 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 14:39:42,922 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 14:39:43,577 - INFO - SMTP login successful, sending email...
+2025-11-12 14:39:45,674 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 14:39:45,675 - INFO - Exiting send_success_email
+2025-11-12 14:39:45,675 - INFO - Exiting backup_database
+2025-11-12 14:39:45,675 - INFO - Entering backup_database
+2025-11-12 14:39:45,675 - INFO - Starting PostgreSQL backup of plane
+2025-11-12 14:39:46,587 - INFO - PostgreSQL backup completed: \home\redberyl\backupdata\backupdata\bakupdata\plane_20251112_143945.sql
+2025-11-12 14:39:46,587 - INFO - Entering send_success_email
+2025-11-12 14:39:46,679 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 14:39:46,680 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 14:39:48,746 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 14:39:49,383 - INFO - SMTP login successful, sending email...
+2025-11-12 14:39:51,448 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 14:39:51,448 - INFO - Exiting send_success_email
+2025-11-12 14:39:51,448 - INFO - Exiting backup_database
+2025-11-12 14:39:51,448 - INFO - Entering backup_database
+2025-11-12 14:39:51,449 - INFO - Starting PostgreSQL backup of sonarqube
+2025-11-12 14:39:52,126 - INFO - PostgreSQL backup completed: \home\redberyl\backupdata\backupdata\bakupdata\sonarqube_20251112_143951.sql
+2025-11-12 14:39:52,126 - INFO - Entering send_success_email
+2025-11-12 14:39:52,211 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 14:39:52,211 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 14:39:53,912 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 14:39:54,556 - INFO - SMTP login successful, sending email...
+2025-11-12 14:39:56,584 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 14:39:56,584 - INFO - Exiting send_success_email
+2025-11-12 14:39:56,584 - INFO - Exiting backup_database
+2025-11-12 14:39:56,585 - INFO - Entering backup_database
+2025-11-12 14:39:56,593 - INFO - Starting MSSQL backup of AsmTest
+2025-11-12 14:39:56,593 - ERROR - Backup failed for AsmTest (MSSQL): 'CustomLogger' object has no attribute 'debug'
+2025-11-12 14:39:56,593 - INFO - Entering send_failure_email
+2025-11-12 14:39:56,667 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 14:39:56,668 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 14:39:58,835 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 14:39:59,524 - INFO - SMTP login successful, sending email...
+2025-11-12 14:40:01,538 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 14:40:01,538 - INFO - Exiting send_failure_email
+2025-11-12 14:40:01,539 - ERROR - Error in backup_database: Backup failed for AsmTest (MSSQL): 'CustomLogger' object has no attribute 'debug' (status=502)
+2025-11-12 14:40:53,814 - INFO - Entering read_config
+2025-11-12 14:40:53,821 - INFO - Exiting read_config
+2025-11-12 14:40:53,822 - INFO - Entering backup_database
+2025-11-12 14:40:53,881 - INFO - Starting PostgreSQL backup of vstate
+2025-11-12 14:40:58,661 - INFO - PostgreSQL backup completed: \home\redberyl\backupdata\backupdata\bakupdata\vstate_20251112_144053.sql
+2025-11-12 14:40:58,662 - INFO - Entering send_success_email
+2025-11-12 14:40:59,049 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 14:40:59,051 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 14:41:01,374 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 14:41:01,988 - INFO - SMTP login successful, sending email...
+2025-11-12 14:41:04,377 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 14:41:04,377 - INFO - Exiting send_success_email
+2025-11-12 14:41:04,378 - INFO - Exiting backup_database
+2025-11-12 14:41:04,378 - INFO - Entering backup_database
+2025-11-12 14:41:04,378 - INFO - Starting PostgreSQL backup of vstateTest
+2025-11-12 14:41:07,534 - INFO - PostgreSQL backup completed: \home\redberyl\backupdata\backupdata\bakupdata\vstateTest_20251112_144104.sql
+2025-11-12 14:41:07,534 - INFO - Entering send_success_email
+2025-11-12 14:41:07,616 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 14:41:07,616 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 14:41:09,825 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 14:41:10,490 - INFO - SMTP login successful, sending email...
+2025-11-12 14:41:12,712 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 14:41:12,712 - INFO - Exiting send_success_email
+2025-11-12 14:41:12,712 - INFO - Exiting backup_database
+2025-11-12 14:41:12,712 - INFO - Entering backup_database
+2025-11-12 14:41:12,713 - INFO - Starting PostgreSQL backup of centralDB
+2025-11-12 14:41:15,518 - INFO - PostgreSQL backup completed: \home\redberyl\backupdata\backupdata\bakupdata\centralDB_20251112_144112.sql
+2025-11-12 14:41:15,518 - INFO - Entering send_success_email
+2025-11-12 14:41:15,598 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 14:41:15,598 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 14:41:17,751 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 14:41:18,439 - INFO - SMTP login successful, sending email...
+2025-11-12 14:41:20,744 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 14:41:20,745 - INFO - Exiting send_success_email
+2025-11-12 14:41:20,745 - INFO - Exiting backup_database
+2025-11-12 14:41:20,745 - INFO - Entering backup_database
+2025-11-12 14:41:20,746 - INFO - Starting PostgreSQL backup of vstateTestEnv
+2025-11-12 14:41:23,813 - INFO - PostgreSQL backup completed: \home\redberyl\backupdata\backupdata\bakupdata\vstateTestEnv_20251112_144120.sql
+2025-11-12 14:41:23,814 - INFO - Entering send_success_email
+2025-11-12 14:41:23,879 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 14:41:23,880 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 14:41:26,231 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 14:41:26,874 - INFO - SMTP login successful, sending email...
+2025-11-12 14:41:29,378 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 14:41:29,378 - INFO - Exiting send_success_email
+2025-11-12 14:41:29,379 - INFO - Exiting backup_database
+2025-11-12 14:41:29,379 - INFO - Entering backup_database
+2025-11-12 14:41:29,380 - INFO - Starting PostgreSQL backup of plane
+2025-11-12 14:41:30,371 - INFO - PostgreSQL backup completed: \home\redberyl\backupdata\backupdata\bakupdata\plane_20251112_144129.sql
+2025-11-12 14:41:30,372 - INFO - Entering send_success_email
+2025-11-12 14:41:30,454 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 14:41:30,455 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 14:41:32,580 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 14:41:33,284 - INFO - SMTP login successful, sending email...
+2025-11-12 14:41:35,726 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 14:41:35,726 - INFO - Exiting send_success_email
+2025-11-12 14:41:35,727 - INFO - Exiting backup_database
+2025-11-12 14:41:35,727 - INFO - Entering backup_database
+2025-11-12 14:41:35,728 - INFO - Starting PostgreSQL backup of sonarqube
+2025-11-12 14:41:36,614 - INFO - PostgreSQL backup completed: \home\redberyl\backupdata\backupdata\bakupdata\sonarqube_20251112_144135.sql
+2025-11-12 14:41:36,614 - INFO - Entering send_success_email
+2025-11-12 14:41:36,692 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 14:41:36,692 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 14:41:38,762 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 14:41:39,398 - INFO - SMTP login successful, sending email...
+2025-11-12 14:41:41,725 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 14:41:41,725 - INFO - Exiting send_success_email
+2025-11-12 14:41:41,725 - INFO - Exiting backup_database
+2025-11-12 14:41:41,725 - INFO - Entering backup_database
+2025-11-12 14:41:41,727 - INFO - Starting MSSQL backup of AsmTest
+2025-11-12 14:41:41,728 - DEBUG - Backup file will be created at: E:\mssqlbackup\AsmTest_20251112_144141.bak
+2025-11-12 14:41:41,728 - DEBUG - Executing command: sqlcmd -S 192.168.1.101 -U sa -P ***** -Q BACKUP DATABASE [AsmTest] TO DISK='E:\mssqlbackup\AsmTest_20251112_144141.bak' WITH INIT,  STATS=10
+2025-11-12 14:41:41,935 - DEBUG - Command output: Msg 3201, Level 16, State 1, Server 5d8e3b6dbf10, Line 1
+Cannot open backup device 'E:\mssqlbackup\AsmTest_20251112_144141.bak'. Operating system error 5(Access is denied.).
+Msg 3013, Level 16, State 1, Server 5d8e3b6dbf10, Line 1
+BACKUP DATABASE is terminating abnormally.
+
+2025-11-12 14:41:41,936 - ERROR - Backup command succeeded but backup file was not created at E:\mssqlbackup\AsmTest_20251112_144141.bak. SQL Server might not have permissions to write to this location.
+2025-11-12 14:41:41,937 - ERROR - Backup failed for AsmTest (MSSQL): Backup command succeeded but backup file was not created at E:\mssqlbackup\AsmTest_20251112_144141.bak. SQL Server might not have permissions to write to this location. (status=502)
+2025-11-12 14:41:41,937 - INFO - Entering send_failure_email
+2025-11-12 14:41:42,008 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 14:41:42,009 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 14:41:43,759 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 14:41:44,444 - INFO - SMTP login successful, sending email...
+2025-11-12 14:41:46,700 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 14:41:46,700 - INFO - Exiting send_failure_email
+2025-11-12 14:41:46,701 - ERROR - Error in backup_database: Backup failed for AsmTest (MSSQL): Backup command succeeded but backup file was not created at E:\mssqlbackup\AsmTest_20251112_144141.bak. SQL Server might not have permissions to write to this location. (status=502) (status=502)
+2025-11-12 14:42:52,327 - INFO - Entering read_config
+2025-11-12 14:42:52,333 - INFO - Exiting read_config
+2025-11-12 14:42:52,333 - INFO - Entering backup_database
+2025-11-12 14:42:52,377 - INFO - Starting PostgreSQL backup of vstate
+2025-11-12 14:42:54,277 - INFO - PostgreSQL backup completed: \home\redberyl\backupdata\backupdata\bakupdata\vstate_20251112_144252.sql
+2025-11-12 14:42:54,278 - INFO - Entering send_success_email
+2025-11-12 14:42:54,595 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 14:42:54,604 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 14:42:56,992 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 14:42:57,678 - INFO - SMTP login successful, sending email...
+2025-11-12 14:42:59,993 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 14:42:59,994 - INFO - Exiting send_success_email
+2025-11-12 14:42:59,994 - INFO - Exiting backup_database
+2025-11-12 14:42:59,994 - INFO - Entering backup_database
+2025-11-12 14:42:59,995 - INFO - Starting PostgreSQL backup of vstateTest
+2025-11-12 14:43:04,002 - INFO - PostgreSQL backup completed: \home\redberyl\backupdata\backupdata\bakupdata\vstateTest_20251112_144259.sql
+2025-11-12 14:43:04,003 - INFO - Entering send_success_email
+2025-11-12 14:43:04,065 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 14:43:04,065 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 14:43:06,414 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 14:43:07,094 - INFO - SMTP login successful, sending email...
+2025-11-12 14:43:09,395 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 14:43:09,395 - INFO - Exiting send_success_email
+2025-11-12 14:43:09,395 - INFO - Exiting backup_database
+2025-11-12 14:43:09,395 - INFO - Entering backup_database
+2025-11-12 14:43:09,396 - INFO - Starting PostgreSQL backup of centralDB
+2025-11-12 14:43:12,038 - INFO - PostgreSQL backup completed: \home\redberyl\backupdata\backupdata\bakupdata\centralDB_20251112_144309.sql
+2025-11-12 14:43:12,039 - INFO - Entering send_success_email
+2025-11-12 14:43:12,102 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 14:43:12,102 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 14:43:14,176 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 14:43:14,886 - INFO - SMTP login successful, sending email...
+2025-11-12 14:43:17,101 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 14:43:17,101 - INFO - Exiting send_success_email
+2025-11-12 14:43:17,101 - INFO - Exiting backup_database
+2025-11-12 14:43:17,102 - INFO - Entering backup_database
+2025-11-12 14:43:17,102 - INFO - Starting PostgreSQL backup of vstateTestEnv
+2025-11-12 14:43:20,637 - INFO - PostgreSQL backup completed: \home\redberyl\backupdata\backupdata\bakupdata\vstateTestEnv_20251112_144317.sql
+2025-11-12 14:43:20,637 - INFO - Entering send_success_email
+2025-11-12 14:43:20,765 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 14:43:20,766 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 14:43:22,998 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 14:43:23,620 - INFO - SMTP login successful, sending email...
+2025-11-12 14:43:25,818 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 14:43:25,819 - INFO - Exiting send_success_email
+2025-11-12 14:43:25,819 - INFO - Exiting backup_database
+2025-11-12 14:43:25,819 - INFO - Entering backup_database
+2025-11-12 14:43:25,819 - INFO - Starting PostgreSQL backup of plane
+2025-11-12 14:43:26,859 - INFO - PostgreSQL backup completed: \home\redberyl\backupdata\backupdata\bakupdata\plane_20251112_144325.sql
+2025-11-12 14:43:26,860 - INFO - Entering send_success_email
+2025-11-12 14:43:26,956 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 14:43:26,957 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 14:43:29,096 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 14:43:29,808 - INFO - SMTP login successful, sending email...
+2025-11-12 14:43:32,117 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 14:43:32,117 - INFO - Exiting send_success_email
+2025-11-12 14:43:32,117 - INFO - Exiting backup_database
+2025-11-12 14:43:32,117 - INFO - Entering backup_database
+2025-11-12 14:43:32,118 - INFO - Starting PostgreSQL backup of sonarqube
+2025-11-12 14:43:32,825 - INFO - PostgreSQL backup completed: \home\redberyl\backupdata\backupdata\bakupdata\sonarqube_20251112_144332.sql
+2025-11-12 14:43:32,825 - INFO - Entering send_success_email
+2025-11-12 14:43:32,887 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 14:43:32,888 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 14:43:34,972 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 14:43:35,702 - INFO - SMTP login successful, sending email...
+2025-11-12 14:43:37,960 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 14:43:37,960 - INFO - Exiting send_success_email
+2025-11-12 14:43:37,960 - INFO - Exiting backup_database
+2025-11-12 14:43:37,961 - INFO - Entering backup_database
+2025-11-12 14:43:37,967 - INFO - Starting MSSQL backup of AsmTest
+2025-11-12 14:43:37,967 - DEBUG - Backup file will be created at: E:\mssqlbackup\AsmTest_20251112_144337.bak
+2025-11-12 14:43:37,968 - DEBUG - Executing command: sqlcmd -S 192.168.1.101 -U sa -P ***** -Q BACKUP DATABASE [AsmTest] TO DISK='E:\mssqlbackup\AsmTest_20251112_144337.bak' WITH INIT,  STATS=10
+2025-11-12 14:43:38,161 - DEBUG - Command output: Msg 3201, Level 16, State 1, Server 5d8e3b6dbf10, Line 1
+Cannot open backup device 'E:\mssqlbackup\AsmTest_20251112_144337.bak'. Operating system error 5(Access is denied.).
+Msg 3013, Level 16, State 1, Server 5d8e3b6dbf10, Line 1
+BACKUP DATABASE is terminating abnormally.
+
+2025-11-12 14:43:38,162 - ERROR - The SQL Server service account (NT SERVICE\MSSQLSERVER) needs full control permissions on the directory: E:\mssqlbackup
+2025-11-12 14:43:38,162 - ERROR - Backup command succeeded but backup file was not created at E:\mssqlbackup\AsmTest_20251112_144337.bak.
+Possible causes:
+1. SQL Server service account (NT SERVICE\MSSQLSERVER) lacks write permissions to the backup directory
+2. The backup path doesn't exist or is not accessible
+3. There's not enough disk space on the target drive
+
+To resolve this issue:
+1. Create the directory if it doesn't exist: E:\mssqlbackup
+2. Grant full control permissions to NT SERVICE\MSSQLSERVER on the directory
+3. Verify there's enough disk space on the target drive
+
+Command output: Msg 3201, Level 16, State 1, Server 5d8e3b6dbf10, Line 1
+Cannot open backup device 'E:\mssqlbackup\AsmTest_20251112_144337.bak'. Operating system error 5(Access is denied.).
+Msg 3013, Level 16, State 1, Server 5d8e3b6dbf10, Line 1
+BACKUP DATABASE is terminating abnormally.
+
+2025-11-12 14:43:38,162 - ERROR - Backup failed for AsmTest (MSSQL): The SQL Server service account (NT SERVICE\MSSQLSERVER) needs full control permissions on the directory: E:\mssqlbackup. Backup command succeeded but backup file was not created at E:\mssqlbackup\AsmTest_20251112_144337.bak.
+Possible causes:
+1. SQL Server service account (NT SERVICE\MSSQLSERVER) lacks write permissions to the backup directory
+2. The backup path doesn't exist or is not accessible
+3. There's not enough disk space on the target drive
+
+To resolve this issue:
+1. Create the directory if it doesn't exist: E:\mssqlbackup
+2. Grant full control permissions to NT SERVICE\MSSQLSERVER on the directory
+3. Verify there's enough disk space on the target drive
+
+Command output: Msg 3201, Level 16, State 1, Server 5d8e3b6dbf10, Line 1
+Cannot open backup device 'E:\mssqlbackup\AsmTest_20251112_144337.bak'. Operating system error 5(Access is denied.).
+Msg 3013, Level 16, State 1, Server 5d8e3b6dbf10, Line 1
+BACKUP DATABASE is terminating abnormally.
+ (status=502)
+2025-11-12 14:43:38,162 - INFO - Entering send_failure_email
+2025-11-12 14:43:38,224 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 14:43:38,225 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 14:43:39,876 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 14:43:40,597 - INFO - SMTP login successful, sending email...
+2025-11-12 14:43:42,783 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 14:43:42,783 - INFO - Exiting send_failure_email
+2025-11-12 14:43:42,783 - ERROR - Error in backup_database: Backup failed for AsmTest (MSSQL): The SQL Server service account (NT SERVICE\MSSQLSERVER) needs full control permissions on the directory: E:\mssqlbackup. Backup command succeeded but backup file was not created at E:\mssqlbackup\AsmTest_20251112_144337.bak.
+Possible causes:
+1. SQL Server service account (NT SERVICE\MSSQLSERVER) lacks write permissions to the backup directory
+2. The backup path doesn't exist or is not accessible
+3. There's not enough disk space on the target drive
+
+To resolve this issue:
+1. Create the directory if it doesn't exist: E:\mssqlbackup
+2. Grant full control permissions to NT SERVICE\MSSQLSERVER on the directory
+3. Verify there's enough disk space on the target drive
+
+Command output: Msg 3201, Level 16, State 1, Server 5d8e3b6dbf10, Line 1
+Cannot open backup device 'E:\mssqlbackup\AsmTest_20251112_144337.bak'. Operating system error 5(Access is denied.).
+Msg 3013, Level 16, State 1, Server 5d8e3b6dbf10, Line 1
+BACKUP DATABASE is terminating abnormally.
+ (status=502) (status=502)
+2025-11-12 14:51:06,652 - INFO - Entering read_config
+2025-11-12 14:51:06,660 - INFO - Exiting read_config
+2025-11-12 14:51:06,661 - INFO - Entering backup_database
+2025-11-12 14:51:06,763 - INFO - Starting PostgreSQL backup of vstate
+2025-11-12 14:51:11,979 - INFO - PostgreSQL backup completed: \home\redberyl\backupdata\backupdata\bakupdata\vstate_20251112_145106.sql
+2025-11-12 14:51:11,981 - INFO - Entering send_success_email
+2025-11-12 14:51:12,405 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 14:51:12,407 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 14:51:14,756 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 14:51:15,396 - INFO - SMTP login successful, sending email...
+2025-11-12 14:51:17,657 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 14:51:17,658 - INFO - Exiting send_success_email
+2025-11-12 14:51:17,658 - INFO - Exiting backup_database
+2025-11-12 14:51:17,658 - INFO - Entering backup_database
+2025-11-12 14:51:17,659 - INFO - Starting PostgreSQL backup of vstateTest
+2025-11-12 14:51:23,467 - INFO - PostgreSQL backup completed: \home\redberyl\backupdata\backupdata\bakupdata\vstateTest_20251112_145117.sql
+2025-11-12 14:51:23,468 - INFO - Entering send_success_email
+2025-11-12 14:51:23,544 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 14:51:23,545 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 14:51:25,873 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 14:51:26,543 - INFO - SMTP login successful, sending email...
+2025-11-12 14:51:28,887 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 14:51:28,888 - INFO - Exiting send_success_email
+2025-11-12 14:51:28,888 - INFO - Exiting backup_database
+2025-11-12 14:51:28,888 - INFO - Entering backup_database
+2025-11-12 14:51:28,890 - INFO - Starting PostgreSQL backup of centralDB
+2025-11-12 14:51:34,817 - INFO - PostgreSQL backup completed: \home\redberyl\backupdata\backupdata\bakupdata\centralDB_20251112_145128.sql
+2025-11-12 14:51:34,817 - INFO - Entering send_success_email
+2025-11-12 14:51:34,895 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 14:51:34,896 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 14:51:37,309 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 14:51:37,972 - INFO - SMTP login successful, sending email...
+2025-11-12 14:51:40,069 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 14:51:40,069 - INFO - Exiting send_success_email
+2025-11-12 14:51:40,069 - INFO - Exiting backup_database
+2025-11-12 14:51:40,070 - INFO - Entering backup_database
+2025-11-12 14:51:40,070 - INFO - Starting PostgreSQL backup of vstateTestEnv
+2025-11-12 14:51:48,695 - INFO - PostgreSQL backup completed: \home\redberyl\backupdata\backupdata\bakupdata\vstateTestEnv_20251112_145140.sql
+2025-11-12 14:51:48,696 - INFO - Entering send_success_email
+2025-11-12 14:51:48,777 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 14:51:48,778 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 14:51:50,962 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 14:51:51,611 - INFO - SMTP login successful, sending email...
+2025-11-12 14:51:53,725 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 14:51:53,727 - INFO - Exiting send_success_email
+2025-11-12 14:51:53,727 - INFO - Exiting backup_database
+2025-11-12 14:51:53,727 - INFO - Entering backup_database
+2025-11-12 14:51:53,728 - INFO - Starting PostgreSQL backup of plane
+2025-11-12 14:51:55,430 - INFO - PostgreSQL backup completed: \home\redberyl\backupdata\backupdata\bakupdata\plane_20251112_145153.sql
+2025-11-12 14:51:55,431 - INFO - Entering send_success_email
+2025-11-12 14:51:55,502 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 14:51:55,503 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 14:51:57,578 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 14:51:58,239 - INFO - SMTP login successful, sending email...
+2025-11-12 14:52:00,627 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 14:52:00,628 - INFO - Exiting send_success_email
+2025-11-12 14:52:00,628 - INFO - Exiting backup_database
+2025-11-12 14:52:00,628 - INFO - Entering backup_database
+2025-11-12 14:52:00,629 - INFO - Starting PostgreSQL backup of sonarqube
+2025-11-12 14:52:01,326 - INFO - PostgreSQL backup completed: \home\redberyl\backupdata\backupdata\bakupdata\sonarqube_20251112_145200.sql
+2025-11-12 14:52:01,326 - INFO - Entering send_success_email
+2025-11-12 14:52:01,419 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 14:52:01,419 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 14:52:03,556 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 14:52:04,240 - INFO - SMTP login successful, sending email...
+2025-11-12 14:52:07,008 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 14:52:07,008 - INFO - Exiting send_success_email
+2025-11-12 14:52:07,009 - INFO - Exiting backup_database
+2025-11-12 14:52:07,009 - INFO - Entering backup_database
+2025-11-12 14:52:07,014 - INFO - Starting MSSQL backup of AsmTest
+2025-11-12 14:52:07,014 - DEBUG - Backup file will be created at: \home\support\mssqlbackup\AsmTest_20251112_145207.bak
+2025-11-12 14:52:07,015 - DEBUG - Executing command: sqlcmd -S 192.168.1.101 -U sa -P ***** -Q BACKUP DATABASE [AsmTest] TO DISK='\home\support\mssqlbackup\AsmTest_20251112_145207.bak' WITH INIT,  STATS=10
+2025-11-12 14:52:07,446 - DEBUG - Command output: Msg 3038, Level 16, State 1, Server 5d8e3b6dbf10, Line 1
+The file name "\home\support\mssqlbackup\AsmTest_20251112_145207.bak" is invalid as a backup device name. Reissue the BACKUP statement with a valid file name.
+Msg 3013, Level 16, State 1, Server 5d8e3b6dbf10, Line 1
+BACKUP DATABASE is terminating abnormally.
+
+2025-11-12 14:52:07,446 - ERROR - The SQL Server service account (NT SERVICE\MSSQLSERVER) needs full control permissions on the directory: \home\support\mssqlbackup
+2025-11-12 14:52:07,447 - ERROR - Backup command succeeded but backup file was not created at \home\support\mssqlbackup\AsmTest_20251112_145207.bak.
+Possible causes:
+1. SQL Server service account (NT SERVICE\MSSQLSERVER) lacks write permissions to the backup directory
+2. The backup path doesn't exist or is not accessible
+3. There's not enough disk space on the target drive
+
+To resolve this issue:
+1. Create the directory if it doesn't exist: \home\support\mssqlbackup
+2. Grant full control permissions to NT SERVICE\MSSQLSERVER on the directory
+3. Verify there's enough disk space on the target drive
+
+Command output: Msg 3038, Level 16, State 1, Server 5d8e3b6dbf10, Line 1
+The file name "\home\support\mssqlbackup\AsmTest_20251112_145207.bak" is invalid as a backup device name. Reissue the BACKUP statement with a valid file name.
+Msg 3013, Level 16, State 1, Server 5d8e3b6dbf10, Line 1
+BACKUP DATABASE is terminating abnormally.
+
+2025-11-12 14:52:07,447 - ERROR - Backup failed for AsmTest (MSSQL): The SQL Server service account (NT SERVICE\MSSQLSERVER) needs full control permissions on the directory: \home\support\mssqlbackup. Backup command succeeded but backup file was not created at \home\support\mssqlbackup\AsmTest_20251112_145207.bak.
+Possible causes:
+1. SQL Server service account (NT SERVICE\MSSQLSERVER) lacks write permissions to the backup directory
+2. The backup path doesn't exist or is not accessible
+3. There's not enough disk space on the target drive
+
+To resolve this issue:
+1. Create the directory if it doesn't exist: \home\support\mssqlbackup
+2. Grant full control permissions to NT SERVICE\MSSQLSERVER on the directory
+3. Verify there's enough disk space on the target drive
+
+Command output: Msg 3038, Level 16, State 1, Server 5d8e3b6dbf10, Line 1
+The file name "\home\support\mssqlbackup\AsmTest_20251112_145207.bak" is invalid as a backup device name. Reissue the BACKUP statement with a valid file name.
+Msg 3013, Level 16, State 1, Server 5d8e3b6dbf10, Line 1
+BACKUP DATABASE is terminating abnormally.
+ (status=502)
+2025-11-12 14:52:07,447 - INFO - Entering send_failure_email
+2025-11-12 14:52:07,534 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 14:52:07,534 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 14:52:09,714 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 14:52:10,582 - INFO - SMTP login successful, sending email...
+2025-11-12 14:52:12,793 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 14:52:12,793 - INFO - Exiting send_failure_email
+2025-11-12 14:52:12,793 - ERROR - Error in backup_database: Backup failed for AsmTest (MSSQL): The SQL Server service account (NT SERVICE\MSSQLSERVER) needs full control permissions on the directory: \home\support\mssqlbackup. Backup command succeeded but backup file was not created at \home\support\mssqlbackup\AsmTest_20251112_145207.bak.
+Possible causes:
+1. SQL Server service account (NT SERVICE\MSSQLSERVER) lacks write permissions to the backup directory
+2. The backup path doesn't exist or is not accessible
+3. There's not enough disk space on the target drive
+
+To resolve this issue:
+1. Create the directory if it doesn't exist: \home\support\mssqlbackup
+2. Grant full control permissions to NT SERVICE\MSSQLSERVER on the directory
+3. Verify there's enough disk space on the target drive
+
+Command output: Msg 3038, Level 16, State 1, Server 5d8e3b6dbf10, Line 1
+The file name "\home\support\mssqlbackup\AsmTest_20251112_145207.bak" is invalid as a backup device name. Reissue the BACKUP statement with a valid file name.
+Msg 3013, Level 16, State 1, Server 5d8e3b6dbf10, Line 1
+BACKUP DATABASE is terminating abnormally.
+ (status=502) (status=502)
+2025-11-12 14:54:17,180 - INFO - Entering read_config
+2025-11-12 14:54:17,186 - INFO - Exiting read_config
+2025-11-12 14:54:17,187 - INFO - Entering backup_database
+2025-11-12 14:54:17,250 - INFO - Starting PostgreSQL backup of vstate
+2025-11-12 14:54:40,024 - INFO - Entering read_config
+2025-11-12 14:54:40,028 - INFO - Exiting read_config
+2025-11-12 14:54:40,029 - INFO - Entering backup_database
+2025-11-12 14:54:40,100 - INFO - Starting PostgreSQL backup of vstate
+2025-11-12 14:54:42,904 - INFO - PostgreSQL backup completed: \home\redberyl\backupdata\backupdata\bakupdata\vstate_20251112_145440.sql
+2025-11-12 14:54:42,905 - INFO - Entering send_success_email
+2025-11-12 14:54:43,332 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 14:54:43,333 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 14:54:45,726 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 14:54:46,360 - INFO - SMTP login successful, sending email...
+2025-11-12 14:54:48,665 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 14:54:48,665 - INFO - Exiting send_success_email
+2025-11-12 14:54:48,665 - INFO - Exiting backup_database
+2025-11-12 14:54:48,666 - INFO - Entering backup_database
+2025-11-12 14:54:48,666 - INFO - Starting PostgreSQL backup of vstateTest
+2025-11-12 14:54:52,594 - INFO - PostgreSQL backup completed: \home\redberyl\backupdata\backupdata\bakupdata\vstateTest_20251112_145448.sql
+2025-11-12 14:54:52,728 - INFO - Entering send_success_email
+2025-11-12 14:54:52,816 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 14:54:52,817 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 14:54:55,056 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 14:54:55,700 - INFO - SMTP login successful, sending email...
+2025-11-12 14:54:57,760 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 14:54:57,760 - INFO - Exiting send_success_email
+2025-11-12 14:54:57,760 - INFO - Exiting backup_database
+2025-11-12 14:54:57,760 - INFO - Entering backup_database
+2025-11-12 14:54:57,761 - INFO - Starting PostgreSQL backup of centralDB
+2025-11-12 14:55:02,564 - INFO - PostgreSQL backup completed: \home\redberyl\backupdata\backupdata\bakupdata\centralDB_20251112_145457.sql
+2025-11-12 14:55:02,802 - INFO - Entering send_success_email
+2025-11-12 14:55:02,889 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 14:55:02,889 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 14:55:05,285 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 14:55:05,963 - INFO - SMTP login successful, sending email...
+2025-11-12 14:55:08,404 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 14:55:08,404 - INFO - Exiting send_success_email
+2025-11-12 14:55:08,404 - INFO - Exiting backup_database
+2025-11-12 14:55:08,404 - INFO - Entering backup_database
+2025-11-12 14:55:08,405 - INFO - Starting PostgreSQL backup of vstateTestEnv
+2025-11-12 14:55:12,118 - INFO - PostgreSQL backup completed: \home\redberyl\backupdata\backupdata\bakupdata\vstateTestEnv_20251112_145508.sql
+2025-11-12 14:55:12,119 - INFO - Entering send_success_email
+2025-11-12 14:55:12,183 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 14:55:12,184 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 14:55:14,410 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 14:55:15,052 - INFO - SMTP login successful, sending email...
+2025-11-12 14:55:17,269 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 14:55:17,270 - INFO - Exiting send_success_email
+2025-11-12 14:55:17,270 - INFO - Exiting backup_database
+2025-11-12 14:55:17,270 - INFO - Entering backup_database
+2025-11-12 14:55:17,271 - INFO - Starting PostgreSQL backup of plane
+2025-11-12 14:55:18,429 - INFO - PostgreSQL backup completed: \home\redberyl\backupdata\backupdata\bakupdata\plane_20251112_145517.sql
+2025-11-12 14:55:18,429 - INFO - Entering send_success_email
+2025-11-12 14:55:18,535 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 14:55:18,536 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 14:55:20,637 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 14:55:21,252 - INFO - SMTP login successful, sending email...
+2025-11-12 14:55:23,605 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 14:55:23,605 - INFO - Exiting send_success_email
+2025-11-12 14:55:23,606 - INFO - Exiting backup_database
+2025-11-12 14:55:23,606 - INFO - Entering backup_database
+2025-11-12 14:55:23,606 - INFO - Starting PostgreSQL backup of sonarqube
+2025-11-12 14:55:24,364 - INFO - PostgreSQL backup completed: \home\redberyl\backupdata\backupdata\bakupdata\sonarqube_20251112_145523.sql
+2025-11-12 14:55:24,364 - INFO - Entering send_success_email
+2025-11-12 14:55:24,446 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 14:55:24,447 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 14:55:26,555 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 14:55:27,266 - INFO - SMTP login successful, sending email...
+2025-11-12 14:55:29,913 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 14:55:29,913 - INFO - Exiting send_success_email
+2025-11-12 14:55:29,913 - INFO - Exiting backup_database
+2025-11-12 14:55:29,914 - INFO - Entering backup_database
+2025-11-12 14:55:29,921 - INFO - Starting MSSQL backup of AsmTest
+2025-11-12 14:55:29,921 - DEBUG - Backup file will be created at: \home\support\databackup\AsmTest_20251112_145529.bak
+2025-11-12 14:55:29,922 - DEBUG - Executing command: sqlcmd -S 192.168.1.101 -U sa -P ***** -Q BACKUP DATABASE [AsmTest] TO DISK='\home\support\databackup\AsmTest_20251112_145529.bak' WITH INIT,  STATS=10
+2025-11-12 14:55:30,193 - DEBUG - Command output: Msg 3038, Level 16, State 1, Server 5d8e3b6dbf10, Line 1
+The file name "\home\support\databackup\AsmTest_20251112_145529.bak" is invalid as a backup device name. Reissue the BACKUP statement with a valid file name.
+Msg 3013, Level 16, State 1, Server 5d8e3b6dbf10, Line 1
+BACKUP DATABASE is terminating abnormally.
+
+2025-11-12 14:55:30,194 - ERROR - The SQL Server service account (NT SERVICE\MSSQLSERVER) needs full control permissions on the directory: \home\support\databackup
+2025-11-12 14:55:30,194 - ERROR - Backup command succeeded but backup file was not created at \home\support\databackup\AsmTest_20251112_145529.bak.
+Possible causes:
+1. SQL Server service account (NT SERVICE\MSSQLSERVER) lacks write permissions to the backup directory
+2. The backup path doesn't exist or is not accessible
+3. There's not enough disk space on the target drive
+
+To resolve this issue:
+1. Create the directory if it doesn't exist: \home\support\databackup
+2. Grant full control permissions to NT SERVICE\MSSQLSERVER on the directory
+3. Verify there's enough disk space on the target drive
+
+Command output: Msg 3038, Level 16, State 1, Server 5d8e3b6dbf10, Line 1
+The file name "\home\support\databackup\AsmTest_20251112_145529.bak" is invalid as a backup device name. Reissue the BACKUP statement with a valid file name.
+Msg 3013, Level 16, State 1, Server 5d8e3b6dbf10, Line 1
+BACKUP DATABASE is terminating abnormally.
+
+2025-11-12 14:55:30,194 - ERROR - Backup failed for AsmTest (MSSQL): The SQL Server service account (NT SERVICE\MSSQLSERVER) needs full control permissions on the directory: \home\support\databackup. Backup command succeeded but backup file was not created at \home\support\databackup\AsmTest_20251112_145529.bak.
+Possible causes:
+1. SQL Server service account (NT SERVICE\MSSQLSERVER) lacks write permissions to the backup directory
+2. The backup path doesn't exist or is not accessible
+3. There's not enough disk space on the target drive
+
+To resolve this issue:
+1. Create the directory if it doesn't exist: \home\support\databackup
+2. Grant full control permissions to NT SERVICE\MSSQLSERVER on the directory
+3. Verify there's enough disk space on the target drive
+
+Command output: Msg 3038, Level 16, State 1, Server 5d8e3b6dbf10, Line 1
+The file name "\home\support\databackup\AsmTest_20251112_145529.bak" is invalid as a backup device name. Reissue the BACKUP statement with a valid file name.
+Msg 3013, Level 16, State 1, Server 5d8e3b6dbf10, Line 1
+BACKUP DATABASE is terminating abnormally.
+ (status=502)
+2025-11-12 14:55:30,195 - INFO - Entering send_failure_email
+2025-11-12 14:55:30,267 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 14:55:30,268 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 14:55:31,925 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 14:55:32,563 - INFO - SMTP login successful, sending email...
+2025-11-12 14:55:34,682 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 14:55:34,682 - INFO - Exiting send_failure_email
+2025-11-12 14:55:34,682 - ERROR - Error in backup_database: Backup failed for AsmTest (MSSQL): The SQL Server service account (NT SERVICE\MSSQLSERVER) needs full control permissions on the directory: \home\support\databackup. Backup command succeeded but backup file was not created at \home\support\databackup\AsmTest_20251112_145529.bak.
+Possible causes:
+1. SQL Server service account (NT SERVICE\MSSQLSERVER) lacks write permissions to the backup directory
+2. The backup path doesn't exist or is not accessible
+3. There's not enough disk space on the target drive
+
+To resolve this issue:
+1. Create the directory if it doesn't exist: \home\support\databackup
+2. Grant full control permissions to NT SERVICE\MSSQLSERVER on the directory
+3. Verify there's enough disk space on the target drive
+
+Command output: Msg 3038, Level 16, State 1, Server 5d8e3b6dbf10, Line 1
+The file name "\home\support\databackup\AsmTest_20251112_145529.bak" is invalid as a backup device name. Reissue the BACKUP statement with a valid file name.
+Msg 3013, Level 16, State 1, Server 5d8e3b6dbf10, Line 1
+BACKUP DATABASE is terminating abnormally.
+ (status=502) (status=502)
+2025-11-12 14:57:37,812 - INFO - Entering read_config
+2025-11-12 14:57:37,821 - INFO - Exiting read_config
+2025-11-12 14:57:37,822 - INFO - Entering backup_database
+2025-11-12 14:57:37,956 - INFO - Starting PostgreSQL backup of vstate
+2025-11-12 14:57:41,791 - INFO - PostgreSQL backup completed: \home\redberyl\backupdata\backupdata\bakupdata\vstate_20251112_145737.sql
+2025-11-12 14:57:41,792 - INFO - Entering send_success_email
+2025-11-12 14:57:42,356 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 14:57:42,357 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 14:57:44,715 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 14:57:45,362 - INFO - SMTP login successful, sending email...
+2025-11-12 14:57:47,451 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 14:57:47,452 - INFO - Exiting send_success_email
+2025-11-12 14:57:47,452 - INFO - Exiting backup_database
+2025-11-12 14:57:47,452 - INFO - Entering backup_database
+2025-11-12 14:57:47,453 - INFO - Starting PostgreSQL backup of vstateTest
+2025-11-12 14:57:53,595 - INFO - PostgreSQL backup completed: \home\redberyl\backupdata\backupdata\bakupdata\vstateTest_20251112_145747.sql
+2025-11-12 14:57:53,596 - INFO - Entering send_success_email
+2025-11-12 14:57:53,674 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 14:57:53,674 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 14:57:55,993 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 14:57:56,639 - INFO - SMTP login successful, sending email...
+2025-11-12 14:57:58,910 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 14:57:58,910 - INFO - Exiting send_success_email
+2025-11-12 14:57:58,911 - INFO - Exiting backup_database
+2025-11-12 14:57:58,911 - INFO - Entering backup_database
+2025-11-12 14:57:58,912 - INFO - Starting PostgreSQL backup of centralDB
+2025-11-12 14:58:05,430 - INFO - PostgreSQL backup completed: \home\redberyl\backupdata\backupdata\bakupdata\centralDB_20251112_145758.sql
+2025-11-12 14:58:05,430 - INFO - Entering send_success_email
+2025-11-12 14:58:05,508 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 14:58:05,508 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 14:58:07,911 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 14:58:08,542 - INFO - SMTP login successful, sending email...
+2025-11-12 14:58:10,767 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 14:58:10,767 - INFO - Exiting send_success_email
+2025-11-12 14:58:10,767 - INFO - Exiting backup_database
+2025-11-12 14:58:10,767 - INFO - Entering backup_database
+2025-11-12 14:58:10,768 - INFO - Starting PostgreSQL backup of vstateTestEnv
+2025-11-12 14:58:16,691 - INFO - PostgreSQL backup completed: \home\redberyl\backupdata\backupdata\bakupdata\vstateTestEnv_20251112_145810.sql
+2025-11-12 14:58:16,691 - INFO - Entering send_success_email
+2025-11-12 14:58:16,755 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 14:58:16,756 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 14:58:18,922 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 14:58:19,562 - INFO - SMTP login successful, sending email...
+2025-11-12 14:58:21,708 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 14:58:21,708 - INFO - Exiting send_success_email
+2025-11-12 14:58:21,709 - INFO - Exiting backup_database
+2025-11-12 14:58:21,709 - INFO - Entering backup_database
+2025-11-12 14:58:21,710 - INFO - Starting PostgreSQL backup of plane
+2025-11-12 14:58:23,359 - INFO - PostgreSQL backup completed: \home\redberyl\backupdata\backupdata\bakupdata\plane_20251112_145821.sql
+2025-11-12 14:58:23,360 - INFO - Entering send_success_email
+2025-11-12 14:58:23,423 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 14:58:23,424 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 14:58:25,515 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 14:58:26,163 - INFO - SMTP login successful, sending email...
+2025-11-12 14:58:28,428 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 14:58:28,428 - INFO - Exiting send_success_email
+2025-11-12 14:58:28,429 - INFO - Exiting backup_database
+2025-11-12 14:58:28,429 - INFO - Entering backup_database
+2025-11-12 14:58:28,430 - INFO - Starting PostgreSQL backup of sonarqube
+2025-11-12 14:58:29,897 - INFO - PostgreSQL backup completed: \home\redberyl\backupdata\backupdata\bakupdata\sonarqube_20251112_145828.sql
+2025-11-12 14:58:29,898 - INFO - Entering send_success_email
+2025-11-12 14:58:30,005 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 14:58:30,006 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 14:58:32,108 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 14:58:32,737 - INFO - SMTP login successful, sending email...
+2025-11-12 14:58:34,833 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 14:58:34,834 - INFO - Exiting send_success_email
+2025-11-12 14:58:34,834 - INFO - Exiting backup_database
+2025-11-12 14:58:34,834 - INFO - Entering backup_database
+2025-11-12 14:58:34,838 - INFO - Starting MSSQL backup of AsmTest
+2025-11-12 14:58:34,838 - DEBUG - Backup file will be created at: \home\support\databackup\AsmTest_20251112_145834.bak
+2025-11-12 14:58:34,839 - DEBUG - Executing command: sqlcmd -S 192.168.1.101 -U sa -P ***** -Q BACKUP DATABASE [AsmTest] TO DISK=N'/home/support/databackup/AsmTest_20251112_145834.bak' WITH INIT, STATS=10, COMPRESSION
+2025-11-12 14:58:36,757 - DEBUG - Command output: Msg 3201, Level 16, State 1, Server 5d8e3b6dbf10, Line 1
+Cannot open backup device '/home/support/databackup/AsmTest_20251112_145834.bak'. Operating system error 5(Access is denied.).
+Msg 3013, Level 16, State 1, Server 5d8e3b6dbf10, Line 1
+BACKUP DATABASE is terminating abnormally.
+
+2025-11-12 14:58:36,758 - ERROR - The SQL Server service account (NT SERVICE\MSSQLSERVER) needs full control permissions on the directory: \home\support\databackup
+2025-11-12 14:58:36,758 - ERROR - Backup command succeeded but backup file was not created at \home\support\databackup\AsmTest_20251112_145834.bak.
+Possible causes:
+1. SQL Server service account (NT SERVICE\MSSQLSERVER) lacks write permissions to the backup directory
+2. The backup path doesn't exist or is not accessible
+3. There's not enough disk space on the target drive
+
+To resolve this issue:
+1. Create the directory if it doesn't exist: \home\support\databackup
+2. Grant full control permissions to NT SERVICE\MSSQLSERVER on the directory
+3. Verify there's enough disk space on the target drive
+
+Command output: Msg 3201, Level 16, State 1, Server 5d8e3b6dbf10, Line 1
+Cannot open backup device '/home/support/databackup/AsmTest_20251112_145834.bak'. Operating system error 5(Access is denied.).
+Msg 3013, Level 16, State 1, Server 5d8e3b6dbf10, Line 1
+BACKUP DATABASE is terminating abnormally.
+
+2025-11-12 14:58:36,758 - ERROR - Backup failed for AsmTest (MSSQL): The SQL Server service account (NT SERVICE\MSSQLSERVER) needs full control permissions on the directory: \home\support\databackup. Backup command succeeded but backup file was not created at \home\support\databackup\AsmTest_20251112_145834.bak.
+Possible causes:
+1. SQL Server service account (NT SERVICE\MSSQLSERVER) lacks write permissions to the backup directory
+2. The backup path doesn't exist or is not accessible
+3. There's not enough disk space on the target drive
+
+To resolve this issue:
+1. Create the directory if it doesn't exist: \home\support\databackup
+2. Grant full control permissions to NT SERVICE\MSSQLSERVER on the directory
+3. Verify there's enough disk space on the target drive
+
+Command output: Msg 3201, Level 16, State 1, Server 5d8e3b6dbf10, Line 1
+Cannot open backup device '/home/support/databackup/AsmTest_20251112_145834.bak'. Operating system error 5(Access is denied.).
+Msg 3013, Level 16, State 1, Server 5d8e3b6dbf10, Line 1
+BACKUP DATABASE is terminating abnormally.
+ (status=502)
+2025-11-12 14:58:36,758 - INFO - Entering send_failure_email
+2025-11-12 14:58:36,822 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 14:58:36,823 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 14:58:38,901 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 14:58:39,535 - INFO - SMTP login successful, sending email...
+2025-11-12 14:58:41,782 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 14:58:41,782 - INFO - Exiting send_failure_email
+2025-11-12 14:58:41,783 - ERROR - Error in backup_database: Backup failed for AsmTest (MSSQL): The SQL Server service account (NT SERVICE\MSSQLSERVER) needs full control permissions on the directory: \home\support\databackup. Backup command succeeded but backup file was not created at \home\support\databackup\AsmTest_20251112_145834.bak.
+Possible causes:
+1. SQL Server service account (NT SERVICE\MSSQLSERVER) lacks write permissions to the backup directory
+2. The backup path doesn't exist or is not accessible
+3. There's not enough disk space on the target drive
+
+To resolve this issue:
+1. Create the directory if it doesn't exist: \home\support\databackup
+2. Grant full control permissions to NT SERVICE\MSSQLSERVER on the directory
+3. Verify there's enough disk space on the target drive
+
+Command output: Msg 3201, Level 16, State 1, Server 5d8e3b6dbf10, Line 1
+Cannot open backup device '/home/support/databackup/AsmTest_20251112_145834.bak'. Operating system error 5(Access is denied.).
+Msg 3013, Level 16, State 1, Server 5d8e3b6dbf10, Line 1
+BACKUP DATABASE is terminating abnormally.
+ (status=502) (status=502)
+2025-11-12 14:59:43,412 - INFO - Entering read_config
+2025-11-12 14:59:43,418 - INFO - Exiting read_config
+2025-11-12 14:59:43,419 - INFO - Entering backup_database
+2025-11-12 14:59:43,475 - INFO - Starting PostgreSQL backup of vstate
+2025-11-12 14:59:46,807 - INFO - PostgreSQL backup completed: \home\redberyl\backupdata\backupdata\bakupdata\vstate_20251112_145943.sql
+2025-11-12 14:59:46,808 - INFO - Entering send_success_email
+2025-11-12 14:59:47,139 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 14:59:47,140 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 14:59:49,515 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 14:59:50,145 - INFO - SMTP login successful, sending email...
+2025-11-12 14:59:52,127 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 14:59:52,128 - INFO - Exiting send_success_email
+2025-11-12 14:59:52,128 - INFO - Exiting backup_database
+2025-11-12 14:59:52,128 - INFO - Entering backup_database
+2025-11-12 14:59:52,129 - INFO - Starting PostgreSQL backup of vstateTest
+2025-11-12 14:59:57,720 - INFO - PostgreSQL backup completed: \home\redberyl\backupdata\backupdata\bakupdata\vstateTest_20251112_145952.sql
+2025-11-12 14:59:57,721 - INFO - Entering send_success_email
+2025-11-12 14:59:57,799 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 14:59:57,800 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 15:00:00,107 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 15:00:00,773 - INFO - SMTP login successful, sending email...
+2025-11-12 15:00:02,882 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 15:00:02,882 - INFO - Exiting send_success_email
+2025-11-12 15:00:02,882 - INFO - Exiting backup_database
+2025-11-12 15:00:02,882 - INFO - Entering backup_database
+2025-11-12 15:00:02,883 - INFO - Starting PostgreSQL backup of centralDB
+2025-11-12 15:00:08,191 - INFO - PostgreSQL backup completed: \home\redberyl\backupdata\backupdata\bakupdata\centralDB_20251112_150002.sql
+2025-11-12 15:00:08,192 - INFO - Entering send_success_email
+2025-11-12 15:00:08,255 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 15:00:08,255 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 15:00:10,573 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 15:00:11,252 - INFO - SMTP login successful, sending email...
+2025-11-12 15:00:13,417 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 15:00:13,418 - INFO - Exiting send_success_email
+2025-11-12 15:00:13,418 - INFO - Exiting backup_database
+2025-11-12 15:00:13,418 - INFO - Entering backup_database
+2025-11-12 15:00:13,420 - INFO - Starting PostgreSQL backup of vstateTestEnv
+2025-11-12 15:00:16,865 - INFO - PostgreSQL backup completed: \home\redberyl\backupdata\backupdata\bakupdata\vstateTestEnv_20251112_150013.sql
+2025-11-12 15:00:16,865 - INFO - Entering send_success_email
+2025-11-12 15:00:16,945 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 15:00:16,945 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 15:00:19,197 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 15:00:19,839 - INFO - SMTP login successful, sending email...
+2025-11-12 15:00:21,904 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 15:00:21,905 - INFO - Exiting send_success_email
+2025-11-12 15:00:21,905 - INFO - Exiting backup_database
+2025-11-12 15:00:21,905 - INFO - Entering backup_database
+2025-11-12 15:00:21,906 - INFO - Starting PostgreSQL backup of plane
+2025-11-12 15:00:23,081 - INFO - PostgreSQL backup completed: \home\redberyl\backupdata\backupdata\bakupdata\plane_20251112_150021.sql
+2025-11-12 15:00:23,082 - INFO - Entering send_success_email
+2025-11-12 15:00:23,162 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 15:00:23,162 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 15:00:25,314 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 15:00:25,978 - INFO - SMTP login successful, sending email...
+2025-11-12 15:00:28,228 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 15:00:28,228 - INFO - Exiting send_success_email
+2025-11-12 15:00:28,229 - INFO - Exiting backup_database
+2025-11-12 15:00:28,229 - INFO - Entering backup_database
+2025-11-12 15:00:28,230 - INFO - Starting PostgreSQL backup of sonarqube
+2025-11-12 15:00:29,118 - INFO - PostgreSQL backup completed: \home\redberyl\backupdata\backupdata\bakupdata\sonarqube_20251112_150028.sql
+2025-11-12 15:00:29,119 - INFO - Entering send_success_email
+2025-11-12 15:00:29,182 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 15:00:29,183 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 15:00:31,269 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 15:00:31,888 - INFO - SMTP login successful, sending email...
+2025-11-12 15:00:34,245 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 15:00:34,246 - INFO - Exiting send_success_email
+2025-11-12 15:00:34,246 - INFO - Exiting backup_database
+2025-11-12 15:00:34,246 - INFO - Entering backup_database
+2025-11-12 15:00:34,249 - INFO - Starting MSSQL backup of AsmTest
+2025-11-12 15:00:34,249 - DEBUG - Backup file will be created at: \home\redberyl\backupdata\backupdata\bakupdata\AsmTest_20251112_150034.bak
+2025-11-12 15:00:34,250 - DEBUG - Executing command: sqlcmd -S 192.168.1.101 -U sa -P ***** -Q BACKUP DATABASE [AsmTest] TO DISK=N'/home/redberyl/backupdata/backupdata/bakupdata/AsmTest_20251112_150034.bak' WITH INIT, STATS=10, COMPRESSION
+2025-11-12 15:00:34,536 - DEBUG - Command output: Msg 3201, Level 16, State 1, Server 5d8e3b6dbf10, Line 1
+Cannot open backup device '/home/redberyl/backupdata/backupdata/bakupdata/AsmTest_20251112_150034.bak'. Operating system error 5(Access is denied.).
+Msg 3013, Level 16, State 1, Server 5d8e3b6dbf10, Line 1
+BACKUP DATABASE is terminating abnormally.
+
+2025-11-12 15:00:34,537 - ERROR - The SQL Server service account (NT SERVICE\MSSQLSERVER) needs full control permissions on the directory: \home\redberyl\backupdata\backupdata\bakupdata
+2025-11-12 15:00:34,537 - ERROR - Backup command succeeded but backup file was not created at \home\redberyl\backupdata\backupdata\bakupdata\AsmTest_20251112_150034.bak.
+Possible causes:
+1. SQL Server service account (NT SERVICE\MSSQLSERVER) lacks write permissions to the backup directory
+2. The backup path doesn't exist or is not accessible
+3. There's not enough disk space on the target drive
+
+To resolve this issue:
+1. Create the directory if it doesn't exist: \home\redberyl\backupdata\backupdata\bakupdata
+2. Grant full control permissions to NT SERVICE\MSSQLSERVER on the directory
+3. Verify there's enough disk space on the target drive
+
+Command output: Msg 3201, Level 16, State 1, Server 5d8e3b6dbf10, Line 1
+Cannot open backup device '/home/redberyl/backupdata/backupdata/bakupdata/AsmTest_20251112_150034.bak'. Operating system error 5(Access is denied.).
+Msg 3013, Level 16, State 1, Server 5d8e3b6dbf10, Line 1
+BACKUP DATABASE is terminating abnormally.
+
+2025-11-12 15:00:34,537 - ERROR - Backup failed for AsmTest (MSSQL): The SQL Server service account (NT SERVICE\MSSQLSERVER) needs full control permissions on the directory: \home\redberyl\backupdata\backupdata\bakupdata. Backup command succeeded but backup file was not created at \home\redberyl\backupdata\backupdata\bakupdata\AsmTest_20251112_150034.bak.
+Possible causes:
+1. SQL Server service account (NT SERVICE\MSSQLSERVER) lacks write permissions to the backup directory
+2. The backup path doesn't exist or is not accessible
+3. There's not enough disk space on the target drive
+
+To resolve this issue:
+1. Create the directory if it doesn't exist: \home\redberyl\backupdata\backupdata\bakupdata
+2. Grant full control permissions to NT SERVICE\MSSQLSERVER on the directory
+3. Verify there's enough disk space on the target drive
+
+Command output: Msg 3201, Level 16, State 1, Server 5d8e3b6dbf10, Line 1
+Cannot open backup device '/home/redberyl/backupdata/backupdata/bakupdata/AsmTest_20251112_150034.bak'. Operating system error 5(Access is denied.).
+Msg 3013, Level 16, State 1, Server 5d8e3b6dbf10, Line 1
+BACKUP DATABASE is terminating abnormally.
+ (status=502)
+2025-11-12 15:00:34,537 - INFO - Entering send_failure_email
+2025-11-12 15:00:34,603 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 15:00:34,604 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 15:00:36,760 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 15:00:37,423 - INFO - SMTP login successful, sending email...
+2025-11-12 15:00:39,548 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 15:00:39,549 - INFO - Exiting send_failure_email
+2025-11-12 15:00:39,549 - ERROR - Error in backup_database: Backup failed for AsmTest (MSSQL): The SQL Server service account (NT SERVICE\MSSQLSERVER) needs full control permissions on the directory: \home\redberyl\backupdata\backupdata\bakupdata. Backup command succeeded but backup file was not created at \home\redberyl\backupdata\backupdata\bakupdata\AsmTest_20251112_150034.bak.
+Possible causes:
+1. SQL Server service account (NT SERVICE\MSSQLSERVER) lacks write permissions to the backup directory
+2. The backup path doesn't exist or is not accessible
+3. There's not enough disk space on the target drive
+
+To resolve this issue:
+1. Create the directory if it doesn't exist: \home\redberyl\backupdata\backupdata\bakupdata
+2. Grant full control permissions to NT SERVICE\MSSQLSERVER on the directory
+3. Verify there's enough disk space on the target drive
+
+Command output: Msg 3201, Level 16, State 1, Server 5d8e3b6dbf10, Line 1
+Cannot open backup device '/home/redberyl/backupdata/backupdata/bakupdata/AsmTest_20251112_150034.bak'. Operating system error 5(Access is denied.).
+Msg 3013, Level 16, State 1, Server 5d8e3b6dbf10, Line 1
+BACKUP DATABASE is terminating abnormally.
+ (status=502) (status=502)
+2025-11-12 15:08:10,028 - INFO - Entering read_config
+2025-11-12 15:08:10,042 - INFO - Exiting read_config
+2025-11-12 15:08:10,044 - INFO - Entering backup_database
+2025-11-12 15:08:10,158 - INFO - Starting PostgreSQL backup of vstate
+2025-11-12 15:08:15,786 - INFO - PostgreSQL backup completed: \home\redberyl\backupdata\backupdata\bakupdata\vstate_20251112_150810.sql
+2025-11-12 15:08:15,787 - INFO - Entering send_success_email
+2025-11-12 15:08:16,370 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 15:08:16,370 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 15:08:18,831 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 15:08:19,601 - INFO - SMTP login successful, sending email...
+2025-11-12 15:08:22,091 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 15:08:22,091 - INFO - Exiting send_success_email
+2025-11-12 15:08:22,092 - INFO - Exiting backup_database
+2025-11-12 15:08:22,092 - INFO - Entering backup_database
+2025-11-12 15:08:22,093 - INFO - Starting PostgreSQL backup of vstateTest
+2025-11-12 15:08:26,016 - INFO - PostgreSQL backup completed: \home\redberyl\backupdata\backupdata\bakupdata\vstateTest_20251112_150822.sql
+2025-11-12 15:08:26,245 - INFO - Entering send_success_email
+2025-11-12 15:08:26,334 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 15:08:26,336 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 15:08:28,732 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 15:08:29,483 - INFO - SMTP login successful, sending email...
+2025-11-12 15:08:32,406 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 15:08:32,406 - INFO - Exiting send_success_email
+2025-11-12 15:08:32,407 - INFO - Exiting backup_database
+2025-11-12 15:08:32,407 - INFO - Entering backup_database
+2025-11-12 15:08:32,408 - INFO - Starting PostgreSQL backup of centralDB
+2025-11-12 15:08:35,553 - INFO - PostgreSQL backup completed: \home\redberyl\backupdata\backupdata\bakupdata\centralDB_20251112_150832.sql
+2025-11-12 15:08:35,554 - INFO - Entering send_success_email
+2025-11-12 15:08:35,653 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 15:08:35,654 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 15:08:37,971 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 15:08:38,587 - INFO - SMTP login successful, sending email...
+2025-11-12 15:08:40,768 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 15:08:40,768 - INFO - Exiting send_success_email
+2025-11-12 15:08:40,768 - INFO - Exiting backup_database
+2025-11-12 15:08:40,768 - INFO - Entering backup_database
+2025-11-12 15:08:40,769 - INFO - Starting PostgreSQL backup of vstateTestEnv
+2025-11-12 15:08:45,055 - INFO - PostgreSQL backup completed: \home\redberyl\backupdata\backupdata\bakupdata\vstateTestEnv_20251112_150840.sql
+2025-11-12 15:08:45,055 - INFO - Entering send_success_email
+2025-11-12 15:08:45,137 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 15:08:45,137 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 15:08:47,547 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 15:08:48,244 - INFO - SMTP login successful, sending email...
+2025-11-12 15:08:50,853 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 15:08:50,853 - INFO - Exiting send_success_email
+2025-11-12 15:08:50,853 - INFO - Exiting backup_database
+2025-11-12 15:08:50,853 - INFO - Entering backup_database
+2025-11-12 15:08:50,854 - INFO - Starting PostgreSQL backup of plane
+2025-11-12 15:08:51,952 - INFO - PostgreSQL backup completed: \home\redberyl\backupdata\backupdata\bakupdata\plane_20251112_150850.sql
+2025-11-12 15:08:51,953 - INFO - Entering send_success_email
+2025-11-12 15:08:52,031 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 15:08:52,032 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 15:08:54,123 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 15:08:54,949 - INFO - SMTP login successful, sending email...
+2025-11-12 15:08:58,000 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 15:08:58,001 - INFO - Exiting send_success_email
+2025-11-12 15:08:58,001 - INFO - Exiting backup_database
+2025-11-12 15:08:58,001 - INFO - Entering backup_database
+2025-11-12 15:08:58,003 - INFO - Starting PostgreSQL backup of sonarqube
+2025-11-12 15:08:59,180 - INFO - PostgreSQL backup completed: \home\redberyl\backupdata\backupdata\bakupdata\sonarqube_20251112_150858.sql
+2025-11-12 15:08:59,180 - INFO - Entering send_success_email
+2025-11-12 15:08:59,246 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 15:08:59,247 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 15:09:01,371 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 15:09:02,040 - INFO - SMTP login successful, sending email...
+2025-11-12 15:09:04,588 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 15:09:04,589 - INFO - Exiting send_success_email
+2025-11-12 15:09:04,589 - INFO - Exiting backup_database
+2025-11-12 15:09:04,589 - INFO - Entering backup_database
+2025-11-12 15:09:04,594 - INFO - Starting MSSQL backup of AsmTest
+2025-11-12 15:09:04,595 - DEBUG - Backup file will be created at: \home\redberyl\backupdata\backupdata\bakupdata\AsmTest_20251112_150904.bak
+2025-11-12 15:09:04,596 - DEBUG - Executing command: sqlcmd -S 192.168.1.101 -U sa -P ***** -Q BACKUP DATABASE [AsmTest] TO DISK='\home\redberyl\backupdata\backupdata\bakupdata\AsmTest_20251112_150904.bak' WITH INIT, STATS=10
+2025-11-12 15:09:05,167 - DEBUG - Command output: Msg 3038, Level 16, State 1, Server 5d8e3b6dbf10, Line 1
+The file name "\home\redberyl\backupdata\backupdata\bakupdata\AsmTest_20251112_150904.bak" is invalid as a backup device name. Reissue the BACKUP statement with a valid file name.
+Msg 3013, Level 16, State 1, Server 5d8e3b6dbf10, Line 1
+BACKUP DATABASE is terminating abnormally.
+
+2025-11-12 15:09:05,167 - ERROR - The SQL Server service account (NT SERVICE\MSSQLSERVER) needs full control permissions on the directory: \home\redberyl\backupdata\backupdata\bakupdata
+2025-11-12 15:09:05,168 - ERROR - Backup command succeeded but backup file was not created at \home\redberyl\backupdata\backupdata\bakupdata\AsmTest_20251112_150904.bak.
+Possible causes:
+1. SQL Server service account (NT SERVICE\MSSQLSERVER) lacks write permissions to the backup directory
+2. The backup path doesn't exist or is not accessible
+3. There's not enough disk space on the target drive
+
+To resolve this issue:
+1. Create the directory if it doesn't exist: \home\redberyl\backupdata\backupdata\bakupdata
+2. Grant full control permissions to NT SERVICE\MSSQLSERVER on the directory
+3. Verify there's enough disk space on the target drive
+
+Command output: Msg 3038, Level 16, State 1, Server 5d8e3b6dbf10, Line 1
+The file name "\home\redberyl\backupdata\backupdata\bakupdata\AsmTest_20251112_150904.bak" is invalid as a backup device name. Reissue the BACKUP statement with a valid file name.
+Msg 3013, Level 16, State 1, Server 5d8e3b6dbf10, Line 1
+BACKUP DATABASE is terminating abnormally.
+
+2025-11-12 15:09:05,168 - ERROR - Backup failed for AsmTest (MSSQL): The SQL Server service account (NT SERVICE\MSSQLSERVER) needs full control permissions on the directory: \home\redberyl\backupdata\backupdata\bakupdata. Backup command succeeded but backup file was not created at \home\redberyl\backupdata\backupdata\bakupdata\AsmTest_20251112_150904.bak.
+Possible causes:
+1. SQL Server service account (NT SERVICE\MSSQLSERVER) lacks write permissions to the backup directory
+2. The backup path doesn't exist or is not accessible
+3. There's not enough disk space on the target drive
+
+To resolve this issue:
+1. Create the directory if it doesn't exist: \home\redberyl\backupdata\backupdata\bakupdata
+2. Grant full control permissions to NT SERVICE\MSSQLSERVER on the directory
+3. Verify there's enough disk space on the target drive
+
+Command output: Msg 3038, Level 16, State 1, Server 5d8e3b6dbf10, Line 1
+The file name "\home\redberyl\backupdata\backupdata\bakupdata\AsmTest_20251112_150904.bak" is invalid as a backup device name. Reissue the BACKUP statement with a valid file name.
+Msg 3013, Level 16, State 1, Server 5d8e3b6dbf10, Line 1
+BACKUP DATABASE is terminating abnormally.
+ (status=502)
+2025-11-12 15:09:05,168 - INFO - Entering send_failure_email
+2025-11-12 15:09:05,235 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 15:09:05,235 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 15:09:06,905 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 15:09:07,534 - INFO - SMTP login successful, sending email...
+2025-11-12 15:09:09,761 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 15:09:09,761 - INFO - Exiting send_failure_email
+2025-11-12 15:09:09,762 - ERROR - Error in backup_database: Backup failed for AsmTest (MSSQL): The SQL Server service account (NT SERVICE\MSSQLSERVER) needs full control permissions on the directory: \home\redberyl\backupdata\backupdata\bakupdata. Backup command succeeded but backup file was not created at \home\redberyl\backupdata\backupdata\bakupdata\AsmTest_20251112_150904.bak.
+Possible causes:
+1. SQL Server service account (NT SERVICE\MSSQLSERVER) lacks write permissions to the backup directory
+2. The backup path doesn't exist or is not accessible
+3. There's not enough disk space on the target drive
+
+To resolve this issue:
+1. Create the directory if it doesn't exist: \home\redberyl\backupdata\backupdata\bakupdata
+2. Grant full control permissions to NT SERVICE\MSSQLSERVER on the directory
+3. Verify there's enough disk space on the target drive
+
+Command output: Msg 3038, Level 16, State 1, Server 5d8e3b6dbf10, Line 1
+The file name "\home\redberyl\backupdata\backupdata\bakupdata\AsmTest_20251112_150904.bak" is invalid as a backup device name. Reissue the BACKUP statement with a valid file name.
+Msg 3013, Level 16, State 1, Server 5d8e3b6dbf10, Line 1
+BACKUP DATABASE is terminating abnormally.
+ (status=502) (status=502)
+2025-11-12 15:14:23,718 - INFO - Entering read_config
+2025-11-12 15:14:23,725 - INFO - Exiting read_config
+2025-11-12 15:14:23,725 - INFO - Entering backup_database
+2025-11-12 15:14:23,853 - INFO - Starting PostgreSQL backup of vstate
+2025-11-12 15:14:28,652 - INFO - PostgreSQL backup completed: \home\redberyl\backupdata\backupdata\bakupdata\vstate_20251112_151423.sql
+2025-11-12 15:14:28,654 - INFO - Entering send_success_email
+2025-11-12 15:14:29,157 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 15:14:29,164 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 15:14:31,745 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 15:14:32,435 - INFO - SMTP login successful, sending email...
+2025-11-12 15:14:34,908 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 15:14:34,908 - INFO - Exiting send_success_email
+2025-11-12 15:14:34,909 - INFO - Exiting backup_database
+2025-11-12 15:14:34,909 - INFO - Entering backup_database
+2025-11-12 15:14:34,910 - INFO - Starting PostgreSQL backup of vstateTest
+2025-11-12 15:14:40,787 - INFO - PostgreSQL backup completed: \home\redberyl\backupdata\backupdata\bakupdata\vstateTest_20251112_151434.sql
+2025-11-12 15:14:40,788 - INFO - Entering send_success_email
+2025-11-12 15:14:40,852 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 15:14:40,853 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 15:14:43,297 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 15:14:43,938 - INFO - SMTP login successful, sending email...
+2025-11-12 15:14:46,284 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 15:14:46,285 - INFO - Exiting send_success_email
+2025-11-12 15:14:46,285 - INFO - Exiting backup_database
+2025-11-12 15:14:46,285 - INFO - Entering backup_database
+2025-11-12 15:14:46,286 - INFO - Starting PostgreSQL backup of centralDB
+2025-11-12 15:14:50,788 - INFO - PostgreSQL backup completed: \home\redberyl\backupdata\backupdata\bakupdata\centralDB_20251112_151446.sql
+2025-11-12 15:14:50,788 - INFO - Entering send_success_email
+2025-11-12 15:14:50,876 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 15:14:50,877 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 15:14:53,189 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 15:14:53,950 - INFO - SMTP login successful, sending email...
+2025-11-12 15:14:56,302 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 15:14:56,302 - INFO - Exiting send_success_email
+2025-11-12 15:14:56,302 - INFO - Exiting backup_database
+2025-11-12 15:14:56,302 - INFO - Entering backup_database
+2025-11-12 15:14:56,303 - INFO - Starting PostgreSQL backup of vstateTestEnv
+2025-11-12 15:15:01,504 - INFO - PostgreSQL backup completed: \home\redberyl\backupdata\backupdata\bakupdata\vstateTestEnv_20251112_151456.sql
+2025-11-12 15:15:01,505 - INFO - Entering send_success_email
+2025-11-12 15:15:01,594 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 15:15:01,595 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 15:15:03,987 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 15:15:04,679 - INFO - SMTP login successful, sending email...
+2025-11-12 15:15:06,979 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 15:15:06,980 - INFO - Exiting send_success_email
+2025-11-12 15:15:06,980 - INFO - Exiting backup_database
+2025-11-12 15:15:06,980 - INFO - Entering backup_database
+2025-11-12 15:15:06,981 - INFO - Starting PostgreSQL backup of plane
+2025-11-12 15:15:09,096 - INFO - PostgreSQL backup completed: \home\redberyl\backupdata\backupdata\bakupdata\plane_20251112_151506.sql
+2025-11-12 15:15:09,097 - INFO - Entering send_success_email
+2025-11-12 15:15:09,162 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 15:15:09,163 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 15:15:11,274 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 15:15:11,955 - INFO - SMTP login successful, sending email...
+2025-11-12 15:15:14,349 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 15:15:14,349 - INFO - Exiting send_success_email
+2025-11-12 15:15:14,350 - INFO - Exiting backup_database
+2025-11-12 15:15:14,350 - INFO - Entering backup_database
+2025-11-12 15:15:14,351 - INFO - Starting PostgreSQL backup of sonarqube
+2025-11-12 15:15:15,223 - INFO - PostgreSQL backup completed: \home\redberyl\backupdata\backupdata\bakupdata\sonarqube_20251112_151514.sql
+2025-11-12 15:15:15,223 - INFO - Entering send_success_email
+2025-11-12 15:15:15,298 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 15:15:15,299 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 15:15:17,386 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 15:15:18,033 - INFO - SMTP login successful, sending email...
+2025-11-12 15:15:20,634 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 15:15:20,634 - INFO - Exiting send_success_email
+2025-11-12 15:15:20,634 - INFO - Exiting backup_database
+2025-11-12 15:15:20,635 - INFO - Entering backup_database
+2025-11-12 15:15:20,638 - INFO - Starting MSSQL backup of AsmTest
+2025-11-12 15:15:20,638 - DEBUG - Backup file will be created at: \home\support\databackup\AsmTest_20251112_151520.bak
+2025-11-12 15:15:20,639 - DEBUG - Executing command: sqlcmd -S 192.168.1.101 -U sa -P ***** -Q BACKUP DATABASE [AsmTest] TO DISK='\home\support\databackup\AsmTest_20251112_151520.bak' WITH INIT, STATS=10
+2025-11-12 15:15:21,570 - DEBUG - Command output: Msg 3038, Level 16, State 1, Server 5d8e3b6dbf10, Line 1
+The file name "\home\support\databackup\AsmTest_20251112_151520.bak" is invalid as a backup device name. Reissue the BACKUP statement with a valid file name.
+Msg 3013, Level 16, State 1, Server 5d8e3b6dbf10, Line 1
+BACKUP DATABASE is terminating abnormally.
+
+2025-11-12 15:15:21,570 - ERROR - The SQL Server service account (NT SERVICE\MSSQLSERVER) needs full control permissions on the directory: \home\support\databackup
+2025-11-12 15:15:21,571 - ERROR - Backup command succeeded but backup file was not created at \home\support\databackup\AsmTest_20251112_151520.bak.
+Possible causes:
+1. SQL Server service account (NT SERVICE\MSSQLSERVER) lacks write permissions to the backup directory
+2. The backup path doesn't exist or is not accessible
+3. There's not enough disk space on the target drive
+
+To resolve this issue:
+1. Create the directory if it doesn't exist: \home\support\databackup
+2. Grant full control permissions to NT SERVICE\MSSQLSERVER on the directory
+3. Verify there's enough disk space on the target drive
+
+Command output: Msg 3038, Level 16, State 1, Server 5d8e3b6dbf10, Line 1
+The file name "\home\support\databackup\AsmTest_20251112_151520.bak" is invalid as a backup device name. Reissue the BACKUP statement with a valid file name.
+Msg 3013, Level 16, State 1, Server 5d8e3b6dbf10, Line 1
+BACKUP DATABASE is terminating abnormally.
+
+2025-11-12 15:15:21,571 - ERROR - Backup failed for AsmTest (MSSQL): The SQL Server service account (NT SERVICE\MSSQLSERVER) needs full control permissions on the directory: \home\support\databackup. Backup command succeeded but backup file was not created at \home\support\databackup\AsmTest_20251112_151520.bak.
+Possible causes:
+1. SQL Server service account (NT SERVICE\MSSQLSERVER) lacks write permissions to the backup directory
+2. The backup path doesn't exist or is not accessible
+3. There's not enough disk space on the target drive
+
+To resolve this issue:
+1. Create the directory if it doesn't exist: \home\support\databackup
+2. Grant full control permissions to NT SERVICE\MSSQLSERVER on the directory
+3. Verify there's enough disk space on the target drive
+
+Command output: Msg 3038, Level 16, State 1, Server 5d8e3b6dbf10, Line 1
+The file name "\home\support\databackup\AsmTest_20251112_151520.bak" is invalid as a backup device name. Reissue the BACKUP statement with a valid file name.
+Msg 3013, Level 16, State 1, Server 5d8e3b6dbf10, Line 1
+BACKUP DATABASE is terminating abnormally.
+ (status=502)
+2025-11-12 15:15:21,571 - INFO - Entering send_failure_email
+2025-11-12 15:15:21,635 - INFO - Network connectivity to smtp.gmail.com:587 is available
+2025-11-12 15:15:21,636 - INFO - Attempting to connect to SMTP server smtp.gmail.com:587
+2025-11-12 15:15:23,888 - INFO - Attempting to login with username: deodhare.shreyas@gmail.com
+2025-11-12 15:15:24,580 - INFO - SMTP login successful, sending email...
+2025-11-12 15:15:27,345 - INFO - Email notification sent successfully to deodhare.shreyas@gmail.com, shreyas.deodhare@redberyltech.com, shreyasdeodhare18@gmail.com
+2025-11-12 15:15:27,346 - INFO - Exiting send_failure_email
+2025-11-12 15:15:27,346 - ERROR - Error in backup_database: Backup failed for AsmTest (MSSQL): The SQL Server service account (NT SERVICE\MSSQLSERVER) needs full control permissions on the directory: \home\support\databackup. Backup command succeeded but backup file was not created at \home\support\databackup\AsmTest_20251112_151520.bak.
+Possible causes:
+1. SQL Server service account (NT SERVICE\MSSQLSERVER) lacks write permissions to the backup directory
+2. The backup path doesn't exist or is not accessible
+3. There's not enough disk space on the target drive
+
+To resolve this issue:
+1. Create the directory if it doesn't exist: \home\support\databackup
+2. Grant full control permissions to NT SERVICE\MSSQLSERVER on the directory
+3. Verify there's enough disk space on the target drive
+
+Command output: Msg 3038, Level 16, State 1, Server 5d8e3b6dbf10, Line 1
+The file name "\home\support\databackup\AsmTest_20251112_151520.bak" is invalid as a backup device name. Reissue the BACKUP statement with a valid file name.
+Msg 3013, Level 16, State 1, Server 5d8e3b6dbf10, Line 1
+BACKUP DATABASE is terminating abnormally.
+ (status=502) (status=502)
