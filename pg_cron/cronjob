@@ -1,0 +1,5 @@
+# Full backup daily at 2:00 AM
+0 2 * * * root /usr/bin/python3 /scripts/backup.py >> /var/log/full_backup.log 2>&1
+
+# Incremental backup every 30 minutes
+*/30 * * * * root /usr/bin/python3 /scripts/incremental_backup.py >> /var/log/incremental_backup.log 2>&1

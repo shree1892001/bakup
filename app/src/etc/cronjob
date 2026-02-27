@@ -1,0 +1,5 @@
+# Full backup daily at 2:00 AM
+0 2 * * * root cd /app/src && /usr/bin/python3 services/backup_service.py >> /app/src/log/cron.log 2>&1
+
+# Incremental backup every 30 minutes
+*/30 * * * * root cd /app/src && /usr/bin/python3 services/incremental_service.py >> /app/src/log/cron.log 2>&1

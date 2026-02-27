@@ -1,0 +1,4 @@
+# No external dependencies currently required for the basic backup/restore logic,
+# but this file is provided for future extensions.
+# Example:
+# psycopg2-binary==2.9.9

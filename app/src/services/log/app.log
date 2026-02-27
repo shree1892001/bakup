@@ -1,0 +1,168 @@
+2026-02-27 11:25:00,219 - pg_cron_advanced - INFO - [logger.py:38] - STARTING: Full Database Backup
+2026-02-27 11:25:27,046 - pg_cron_advanced - ERROR - [logger.py:47] - FAILURE: Full Database Backup | Error: Command '['pg_dump', '-h', 'host.docker.internal', '-p', '5432', '-U', 'postgres', '-d', 'SnapHack', '-F', 'c', '-f', '/backups/full/SnapHack_20260227_112505.dump']' returned non-zero exit status 1.
+Traceback (most recent call last):
+  File "E:\pg_cron\app\src\aop\logger.py", line 41, in wrapper
+    result = func(*args, **kwargs)
+  File "E:\pg_cron\app\src\services\backup_service.py", line 38, in run_backup
+    subprocess.run(command, env=env, check=True)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\subprocess.py", line 577, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['pg_dump', '-h', 'host.docker.internal', '-p', '5432', '-U', 'postgres', '-d', 'SnapHack', '-F', 'c', '-f', '/backups/full/SnapHack_20260227_112505.dump']' returned non-zero exit status 1.
+2026-02-27 11:25:27,087 - pg_cron_advanced - WARNING - [logger.py:65] - Retry 1/3 for run_backup after error: Command '['pg_dump', '-h', 'host.docker.internal', '-p', '5432', '-U', 'postgres', '-d', 'SnapHack', '-F', 'c', '-f', '/backups/full/SnapHack_20260227_112505.dump']' returned non-zero exit status 1.
+2026-02-27 11:25:37,088 - pg_cron_advanced - INFO - [logger.py:38] - STARTING: Full Database Backup
+2026-02-27 11:26:00,565 - pg_cron_advanced - ERROR - [logger.py:47] - FAILURE: Full Database Backup | Error: Command '['pg_dump', '-h', 'host.docker.internal', '-p', '5432', '-U', 'postgres', '-d', 'SnapHack', '-F', 'c', '-f', '/backups/full/SnapHack_20260227_112539.dump']' returned non-zero exit status 1.
+Traceback (most recent call last):
+  File "E:\pg_cron\app\src\aop\logger.py", line 41, in wrapper
+    result = func(*args, **kwargs)
+  File "E:\pg_cron\app\src\services\backup_service.py", line 38, in run_backup
+    subprocess.run(command, env=env, check=True)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\subprocess.py", line 577, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['pg_dump', '-h', 'host.docker.internal', '-p', '5432', '-U', 'postgres', '-d', 'SnapHack', '-F', 'c', '-f', '/backups/full/SnapHack_20260227_112539.dump']' returned non-zero exit status 1.
+2026-02-27 11:26:00,568 - pg_cron_advanced - WARNING - [logger.py:65] - Retry 2/3 for run_backup after error: Command '['pg_dump', '-h', 'host.docker.internal', '-p', '5432', '-U', 'postgres', '-d', 'SnapHack', '-F', 'c', '-f', '/backups/full/SnapHack_20260227_112539.dump']' returned non-zero exit status 1.
+2026-02-27 11:26:10,568 - pg_cron_advanced - INFO - [logger.py:38] - STARTING: Full Database Backup
+2026-02-27 11:26:36,569 - pg_cron_advanced - ERROR - [logger.py:47] - FAILURE: Full Database Backup | Error: Command '['pg_dump', '-h', 'host.docker.internal', '-p', '5432', '-U', 'postgres', '-d', 'SnapHack', '-F', 'c', '-f', '/backups/full/SnapHack_20260227_112614.dump']' returned non-zero exit status 1.
+Traceback (most recent call last):
+  File "E:\pg_cron\app\src\aop\logger.py", line 41, in wrapper
+    result = func(*args, **kwargs)
+  File "E:\pg_cron\app\src\services\backup_service.py", line 38, in run_backup
+    subprocess.run(command, env=env, check=True)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\subprocess.py", line 577, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['pg_dump', '-h', 'host.docker.internal', '-p', '5432', '-U', 'postgres', '-d', 'SnapHack', '-F', 'c', '-f', '/backups/full/SnapHack_20260227_112614.dump']' returned non-zero exit status 1.
+2026-02-27 11:26:36,616 - pg_cron_advanced - WARNING - [logger.py:65] - Retry 3/3 for run_backup after error: Command '['pg_dump', '-h', 'host.docker.internal', '-p', '5432', '-U', 'postgres', '-d', 'SnapHack', '-F', 'c', '-f', '/backups/full/SnapHack_20260227_112614.dump']' returned non-zero exit status 1.
+2026-02-27 11:26:46,618 - pg_cron_advanced - ERROR - [logger.py:67] - All 3 retries failed for run_backup
+2026-02-27 11:30:04,573 - pg_cron_advanced - INFO - [logger.py:38] - STARTING: Full Database Backup
+2026-02-27 11:30:28,647 - pg_cron_advanced - ERROR - [logger.py:47] - FAILURE: Full Database Backup | Error: Command '['pg_dump', '-h', 'host.docker.internal', '-p', '5432', '-U', 'postgres', '-d', 'SnapHack', '-F', 'c', '-f', '/backups/full/SnapHack_20260227_113007.dump']' returned non-zero exit status 1.
+Traceback (most recent call last):
+  File "E:\pg_cron\app\src\aop\logger.py", line 41, in wrapper
+    result = func(*args, **kwargs)
+  File "E:\pg_cron\app\src\services\backup_service.py", line 38, in run_backup
+    subprocess.run(command, env=env, check=True)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\subprocess.py", line 577, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['pg_dump', '-h', 'host.docker.internal', '-p', '5432', '-U', 'postgres', '-d', 'SnapHack', '-F', 'c', '-f', '/backups/full/SnapHack_20260227_113007.dump']' returned non-zero exit status 1.
+2026-02-27 11:30:28,675 - pg_cron_advanced - WARNING - [logger.py:65] - Retry 1/3 for run_backup after error: Command '['pg_dump', '-h', 'host.docker.internal', '-p', '5432', '-U', 'postgres', '-d', 'SnapHack', '-F', 'c', '-f', '/backups/full/SnapHack_20260227_113007.dump']' returned non-zero exit status 1.
+2026-02-27 11:30:38,676 - pg_cron_advanced - INFO - [logger.py:38] - STARTING: Full Database Backup
+2026-02-27 11:31:03,783 - pg_cron_advanced - ERROR - [logger.py:47] - FAILURE: Full Database Backup | Error: Command '['pg_dump', '-h', 'host.docker.internal', '-p', '5432', '-U', 'postgres', '-d', 'SnapHack', '-F', 'c', '-f', '/backups/full/SnapHack_20260227_113042.dump']' returned non-zero exit status 1.
+Traceback (most recent call last):
+  File "E:\pg_cron\app\src\aop\logger.py", line 41, in wrapper
+    result = func(*args, **kwargs)
+  File "E:\pg_cron\app\src\services\backup_service.py", line 38, in run_backup
+    subprocess.run(command, env=env, check=True)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\subprocess.py", line 577, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['pg_dump', '-h', 'host.docker.internal', '-p', '5432', '-U', 'postgres', '-d', 'SnapHack', '-F', 'c', '-f', '/backups/full/SnapHack_20260227_113042.dump']' returned non-zero exit status 1.
+2026-02-27 11:31:03,785 - pg_cron_advanced - WARNING - [logger.py:65] - Retry 2/3 for run_backup after error: Command '['pg_dump', '-h', 'host.docker.internal', '-p', '5432', '-U', 'postgres', '-d', 'SnapHack', '-F', 'c', '-f', '/backups/full/SnapHack_20260227_113042.dump']' returned non-zero exit status 1.
+2026-02-27 11:31:13,786 - pg_cron_advanced - INFO - [logger.py:38] - STARTING: Full Database Backup
+2026-02-27 11:31:37,678 - pg_cron_advanced - ERROR - [logger.py:47] - FAILURE: Full Database Backup | Error: Command '['pg_dump', '-h', 'host.docker.internal', '-p', '5432', '-U', 'postgres', '-d', 'SnapHack', '-F', 'c', '-f', '/backups/full/SnapHack_20260227_113116.dump']' returned non-zero exit status 1.
+Traceback (most recent call last):
+  File "E:\pg_cron\app\src\aop\logger.py", line 41, in wrapper
+    result = func(*args, **kwargs)
+  File "E:\pg_cron\app\src\services\backup_service.py", line 38, in run_backup
+    subprocess.run(command, env=env, check=True)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\subprocess.py", line 577, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['pg_dump', '-h', 'host.docker.internal', '-p', '5432', '-U', 'postgres', '-d', 'SnapHack', '-F', 'c', '-f', '/backups/full/SnapHack_20260227_113116.dump']' returned non-zero exit status 1.
+2026-02-27 11:31:37,692 - pg_cron_advanced - WARNING - [logger.py:65] - Retry 3/3 for run_backup after error: Command '['pg_dump', '-h', 'host.docker.internal', '-p', '5432', '-U', 'postgres', '-d', 'SnapHack', '-F', 'c', '-f', '/backups/full/SnapHack_20260227_113116.dump']' returned non-zero exit status 1.
+2026-02-27 11:31:47,693 - pg_cron_advanced - ERROR - [logger.py:67] - All 3 retries failed for run_backup
+2026-02-27 11:35:48,367 - pg_cron_advanced - INFO - [logger.py:38] - STARTING: Full Database Backup
+2026-02-27 11:35:52,623 - pg_cron_advanced - INFO - [logger.py:44] - SUCCESS: Full Database Backup | Duration: 4.26s
+2026-02-27 11:37:19,402 - pg_cron_advanced - INFO - [logger.py:38] - STARTING: Incremental WAL Backup
+2026-02-27 11:37:19,404 - pg_cron_advanced - INFO - [logger.py:44] - SUCCESS: Incremental WAL Backup | Duration: 0.00s
+2026-02-27 11:38:19,051 - pg_cron_advanced - INFO - [logger.py:38] - STARTING: Incremental WAL Backup
+2026-02-27 11:38:19,052 - pg_cron_advanced - INFO - [logger.py:44] - SUCCESS: Incremental WAL Backup | Duration: 0.00s
+2026-02-27 11:38:44,107 - pg_cron_advanced - INFO - [logger.py:38] - STARTING: Incremental WAL Backup
+2026-02-27 11:38:44,128 - pg_cron_advanced - ERROR - [logger.py:47] - FAILURE: Incremental WAL Backup | Error: [WinError 2] The system cannot find the file specified
+Traceback (most recent call last):
+  File "E:\pg_cron\app\src\aop\logger.py", line 41, in wrapper
+    result = func(*args, **kwargs)
+  File "E:\pg_cron\app\src\services\incremental_service.py", line 27, in run_incremental_backup
+    subprocess.run(["rsync", "-av", src, dest], check=True)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\subprocess.py", line 554, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\subprocess.py", line 1039, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\subprocess.py", line 1554, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+                             # no special security
+                             ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+                             cwd,
+                             ^^^^
+                             startupinfo)
+                             ^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+2026-02-27 11:41:28,481 - pg_cron_advanced - INFO - [logger.py:38] - STARTING: Incremental WAL Backup
+2026-02-27 11:41:28,511 - pg_cron_advanced - INFO - [logger.py:44] - SUCCESS: Incremental WAL Backup | Duration: 0.03s
+2026-02-27 11:46:21,706 - pg_cron_advanced - INFO - [logger.py:38] - STARTING: Incremental WAL Backup
+2026-02-27 11:46:21,761 - pg_cron_advanced - INFO - [logger.py:44] - SUCCESS: Incremental WAL Backup | Duration: 0.05s
+2026-02-27 11:49:30,370 - pg_cron_advanced - INFO - [logger.py:38] - STARTING: Incremental WAL Backup
+2026-02-27 11:49:30,395 - pg_cron_advanced - INFO - [logger.py:44] - SUCCESS: Incremental WAL Backup | Duration: 0.02s
+2026-02-27 12:09:38,847 - pg_cron_advanced - INFO - [logger.py:38] - STARTING: Incremental WAL Backup
+2026-02-27 12:09:38,868 - pg_cron_advanced - INFO - [logger.py:44] - SUCCESS: Incremental WAL Backup | Duration: 0.02s
+2026-02-27 12:39:38,920 - pg_cron_advanced - INFO - [logger.py:38] - STARTING: Incremental WAL Backup
+2026-02-27 12:39:38,988 - pg_cron_advanced - INFO - [logger.py:44] - SUCCESS: Incremental WAL Backup | Duration: 0.04s
+2026-02-27 13:09:39,017 - pg_cron_advanced - INFO - [logger.py:38] - STARTING: Incremental WAL Backup
+2026-02-27 13:09:39,062 - pg_cron_advanced - INFO - [logger.py:44] - SUCCESS: Incremental WAL Backup | Duration: 0.03s
+2026-02-27 14:27:06,283 - pg_cron_advanced - INFO - [logger.py:38] - STARTING: Incremental WAL Backup
+2026-02-27 14:27:06,343 - pg_cron_advanced - INFO - [logger.py:44] - SUCCESS: Incremental WAL Backup | Duration: 0.04s
+2026-02-27 14:28:02,813 - pg_cron_advanced - INFO - [logger.py:38] - STARTING: Incremental WAL Backup
+2026-02-27 14:28:04,502 - pg_cron_advanced - INFO - [logger.py:44] - SUCCESS: Incremental WAL Backup | Duration: 0.10s
+2026-02-27 14:35:50,084 - pg_cron_advanced - INFO - [logger.py:38] - STARTING: Incremental WAL Backup
+2026-02-27 14:35:50,472 - pg_cron_advanced - INFO - [logger.py:44] - SUCCESS: Incremental WAL Backup | Duration: 0.39s
+2026-02-27 14:36:58,398 - pg_cron_advanced - INFO - [logger.py:38] - STARTING: Incremental WAL Backup
+2026-02-27 14:36:58,423 - pg_cron_advanced - INFO - [logger.py:44] - SUCCESS: Incremental WAL Backup | Duration: 0.02s
+2026-02-27 14:37:11,716 - pg_cron_advanced - INFO - [logger.py:38] - STARTING: Incremental WAL Backup
+2026-02-27 14:37:11,738 - pg_cron_advanced - INFO - [logger.py:44] - SUCCESS: Incremental WAL Backup | Duration: 0.02s
+2026-02-27 14:39:59,935 - pg_cron_advanced - INFO - [logger.py:38] - STARTING: Incremental WAL Backup
+2026-02-27 14:40:00,046 - pg_cron_advanced - INFO - [logger.py:44] - SUCCESS: Incremental WAL Backup | Duration: 0.11s
+2026-02-27 14:40:33,914 - pg_cron_advanced - INFO - [logger.py:38] - STARTING: Incremental WAL Backup
+2026-02-27 14:40:33,960 - pg_cron_advanced - INFO - [logger.py:44] - SUCCESS: Incremental WAL Backup | Duration: 0.05s
+2026-02-27 14:45:11,394 - pg_cron_advanced - INFO - [logger.py:38] - STARTING: Incremental WAL Backup
+2026-02-27 14:45:11,422 - pg_cron_advanced - INFO - [logger.py:44] - SUCCESS: Incremental WAL Backup | Duration: 0.03s
+2026-02-27 14:48:47,171 - pg_cron_advanced - INFO - [logger.py:38] - STARTING: Incremental WAL Backup
+2026-02-27 14:48:47,258 - pg_cron_advanced - INFO - [logger.py:44] - SUCCESS: Incremental WAL Backup | Duration: 0.09s
+2026-02-27 15:02:44,167 - pg_cron_advanced - INFO - [logger.py:38] - STARTING: Incremental WAL Backup
+2026-02-27 15:02:44,200 - pg_cron_advanced - INFO - [logger.py:44] - SUCCESS: Incremental WAL Backup | Duration: 0.03s
+2026-02-27 15:03:37,960 - pg_cron_advanced - INFO - [logger.py:38] - STARTING: Incremental WAL Backup
+2026-02-27 15:03:38,091 - pg_cron_advanced - INFO - [logger.py:44] - SUCCESS: Incremental WAL Backup | Duration: 0.13s
+2026-02-27 15:03:43,548 - pg_cron_advanced - INFO - [logger.py:38] - STARTING: Incremental WAL Backup
+2026-02-27 15:03:43,572 - pg_cron_advanced - INFO - [logger.py:44] - SUCCESS: Incremental WAL Backup | Duration: 0.02s
+2026-02-27 15:03:46,152 - pg_cron_advanced - INFO - [logger.py:38] - STARTING: Incremental WAL Backup
+2026-02-27 15:03:46,180 - pg_cron_advanced - INFO - [logger.py:44] - SUCCESS: Incremental WAL Backup | Duration: 0.03s
+2026-02-27 15:04:58,273 - pg_cron_advanced - INFO - [logger.py:38] - STARTING: Incremental WAL Backup
+2026-02-27 15:04:58,313 - pg_cron_advanced - INFO - [logger.py:44] - SUCCESS: Incremental WAL Backup | Duration: 0.04s
+2026-02-27 15:07:21,116 - pg_cron_advanced - INFO - [logger.py:38] - STARTING: Incremental WAL Backup
+2026-02-27 15:07:21,141 - pg_cron_advanced - INFO - [logger.py:44] - SUCCESS: Incremental WAL Backup | Duration: 0.02s
+2026-02-27 15:19:43,086 - pg_cron_advanced - INFO - [logger.py:38] - STARTING: Incremental WAL Backup
+2026-02-27 15:19:43,161 - pg_cron_advanced - INFO - [logger.py:44] - SUCCESS: Incremental WAL Backup | Duration: 0.07s
+2026-02-27 15:22:06,261 - pg_cron_advanced - INFO - [logger.py:38] - STARTING: Incremental WAL Backup
+2026-02-27 15:22:06,354 - pg_cron_advanced - INFO - [logger.py:44] - SUCCESS: Incremental WAL Backup | Duration: 0.09s
+2026-02-27 15:52:06,419 - pg_cron_advanced - INFO - [logger.py:38] - STARTING: Incremental WAL Backup
+2026-02-27 15:52:06,533 - pg_cron_advanced - INFO - [logger.py:44] - SUCCESS: Incremental WAL Backup | Duration: 0.08s
+2026-02-27 17:20:25,319 - pg_cron_advanced - INFO - [logger.py:38] - STARTING: Incremental WAL Backup
+2026-02-27 17:20:25,450 - pg_cron_advanced - INFO - [logger.py:44] - SUCCESS: Incremental WAL Backup | Duration: 0.13s
